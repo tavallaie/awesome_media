@@ -2,6 +2,8 @@
 
 A curated catalog of trusted news outlets, podcasts, YouTube channels, newsletters, and independent sources.
 
+[![View Web Version](https://img.shields.io/badge/View-Web%20Version-blue)](https://tavallaie.github.io/awesome_media/)
+
 ## 📰 Catalog
 
 | Name | Type | Country | Language | Website | RSS | Description |
