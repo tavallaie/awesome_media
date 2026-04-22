@@ -1,5 +1,38 @@
 [
   {
+    "title": "انتخاب",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Entekhab.ir, a major Iranian news portal with politics, economy, and breaking news.",
+    "website_url": "https://entekhab.ir/",
+    "website_text": "Visit Website",
+    "rss_url": "",
+    "tags": [
+      "news",
+      "iran",
+      "politics"
+    ]
+  },
+  {
+    "title": "ایلنا - خبرگزاری کار ایران",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Iranian Labor News Agency focusing on workers' rights, economy, politics, and current events.",
+    "website_url": "https://ilna.ir/",
+    "website_text": "Visit Website",
+    "rss_url": "",
+    "tags": [
+      "news",
+      "iran",
+      "labor",
+      "politics"
+    ]
+  },
+  {
     "title": "جوان آنلاین",
     "category": "News",
     "media_type": "News Website",
@@ -33,6 +66,39 @@
     ]
   },
   {
+    "title": "رویداد۲۴",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Roozdaad24 / Rouydad24, an analytical news site focusing on politics and current affairs.",
+    "website_url": "https://rouydad24.ir/",
+    "website_text": "Visit Website",
+    "rss_url": "",
+    "tags": [
+      "news",
+      "iran",
+      "politics",
+      "analysis"
+    ]
+  },
+  {
+    "title": "شرق",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Shargh Daily, a prominent Persian newspaper site covering politics, culture, and society.",
+    "website_url": "https://sharghdaily.com/",
+    "website_text": "Visit Website",
+    "rss_url": "",
+    "tags": [
+      "news",
+      "iran",
+      "politics"
+    ]
+  },
+  {
     "title": "شفقنا",
     "category": "News",
     "media_type": "News Website",
@@ -50,6 +116,22 @@
     ]
   },
   {
+    "title": "عصر ایران",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Asr Iran, a popular news site with articles on politics, economy, and daily events in Iran.",
+    "website_url": "https://asriran.com/",
+    "website_text": "Visit Website",
+    "rss_url": "",
+    "tags": [
+      "news",
+      "iran",
+      "politics"
+    ]
+  },
+  {
     "title": "فرارو",
     "category": "News",
     "media_type": "News Website",
@@ -57,6 +139,22 @@
     "language": "Persian",
     "description": "Fararu, a popular Persian news website focusing on daily news, politics, society, and analysis.",
     "website_url": "https://fararu.com/",
+    "website_text": "Visit Website",
+    "rss_url": "",
+    "tags": [
+      "news",
+      "iran",
+      "politics"
+    ]
+  },
+  {
+    "title": "پایگاه خبری جماران",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Jamaran News, a Persian news site covering politics, society, and current Iranian affairs.",
+    "website_url": "https://jamaran.news/",
     "website_text": "Visit Website",
     "rss_url": "",
     "tags": [
