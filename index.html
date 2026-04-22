@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Media Catalog</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --radius: 8px;
+            --font-sans: 'Segoe UI', system-ui, sans-serif;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .layout {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 2rem;
+        }
+
+        header {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 2rem;
+        }
+        
+        header h1 { font-size: 1.5rem; font-weight: 800; color: var(--primary); }
+
+        aside {
+            background: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            height: fit-content;
+            position: sticky;
+            top: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .filter-group h3 {
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        select, input {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            font-size: 0.95rem;
+        }
+
+        .export-box {
+            background: #f1f5f9;
+            padding: 1rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+        }
+        
+        .export-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: white;
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .export-btn:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            transform: translateX(4px);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+        }
+
+        .card-header { display: flex; justify-content: space-between; margin-bottom: 0.5rem; }
+        .badge {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 12px;
+            background: #e0f2fe;
+            color: #0284c7;
+            font-weight: 600;
+        }
+
+        .card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+        .meta { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; }
+        .desc { font-size: 0.95rem; color: #475569; margin-bottom: 1rem; flex-grow: 1; }
+
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 1rem;
+        }
+        
+        .tag-pill {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            background: #f1f5f9;
+            color: #475569;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        .tag-pill:hover {
+            background: #e2e8f0;
+            color: #0f172a;
+        }
+
+        .actions {
+            margin-top: auto;
+            display: flex;
+            gap: 10px;
+            border-top: 1px solid var(--border);
+            padding-top: 1rem;
+        }
+
+        .btn {
+            flex: 1;
+            text-align: center;
+            padding: 8px 12px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-rss { background: #fff7ed; color: #ea580c; border: 1px solid #ffedd5; }
+
+        @media (max-width: 800px) {
+            .layout { grid-template-columns: 1fr; }
+            aside { position: static; margin-bottom: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Awesome Media</h1>
+</header>
+
+<div class="layout">
+    <aside>
+        <div class="filter-group">
+            <h3>Search</h3>
+            <input type="text" id="search" placeholder="Name or description...">
+        </div>
+
+        <div class="filter-group">
+            <h3>Category</h3>
+            <select id="filter-category">
+                <option value="">All Categories</option>
+                
+                <option value="News">News</option>
+                
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <h3>Media Type</h3>
+            <select id="filter-type">
+                <option value="">All Types</option>
+                
+                <option value="News Website">News Website</option>
+                
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <h3>Country</h3>
+            <select id="filter-country">
+                <option value="">All Countries</option>
+                
+                <option value="Iran">Iran</option>
+                
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <h3>Language</h3>
+            <select id="filter-language">
+                <option value="">All Languages</option>
+                
+                <option value="Persian">Persian</option>
+                
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <h3>Tags</h3>
+            <select id="filter-tags">
+                <option value="">All Tags</option>
+                
+                <option value="analysis">analysis</option>
+                
+                <option value="international">international</option>
+                
+                <option value="iran">iran</option>
+                
+                <option value="news">news</option>
+                
+                <option value="politics">politics</option>
+                
+                <option value="shia">shia</option>
+                
+            </select>
+        </div>
+
+        <div class="export-box">
+            <h3>Export Data</h3>
+            <a id="download-json-btn" class="export-btn" title="Download JSON data (Filtered)">
+                <span>Download JSON (Filtered)</span>
+                <span>&darr;</span>
+            </a>
+            <a href="feeds.opml" download class="export-btn">
+                <span>Import to RSS (OPML)</span>
+                <span>&rarr;</span>
+            </a>
+        </div>
+    </aside>
+
+    <main>
+        <div style="margin-bottom: 1rem; color: var(--text-muted);">
+            Showing <span id="count">0</span> sources
+        </div>
+        <div class="grid" id="card-grid">
+            
+            <article class="card" 
+                     data-title="جوان آنلاین" 
+                     data-desc="javan online, a persian news site covering politics, society, and current affairs in iran."
+                     data-category="News"
+                     data-type="News Website"
+                     data-country="Iran"
+                     data-language="Persian"
+                     data-tags="news|iran|politics">
+                
+                <div class="card-header">
+                    <span class="badge">News Website</span>
+                    <span class="badge" style="background: #f1f5f9; color: #475569;">Persian</span>
+                </div>
+                
+                <h3>جوان آنلاین</h3>
+                <div class="meta">News &bull; Iran</div>
+                <p class="desc">Javan Online, a Persian news site covering politics, society, and current affairs in Iran.</p>
+                
+                
+                <div class="tags-container">
+                    
+                    <span class="tag-pill" onclick="filterByTag('news')">#news</span>
+                    
+                    <span class="tag-pill" onclick="filterByTag('iran')">#iran</span>
+                    
+                    <span class="tag-pill" onclick="filterByTag('politics')">#politics</span>
+                    
+                </div>
+                
+                
+                <div class="actions">
+                    <a href="https://javanonline.ir/" target="_blank" class="btn btn-primary">Visit</a>
+                    
+                </div>
+            </article>
+            
+            <article class="card" 
+                     data-title="خبرآنلاین" 
+                     data-desc="khabar online, a major iranian news portal with breaking news, politics, economy, and analysis."
+                     data-category="News"
+                     data-type="News Website"
+                     data-country="Iran"
+                     data-language="Persian"
+                     data-tags="news|iran|politics|analysis">
+                
+                <div class="card-header">
+                    <span class="badge">News Website</span>
+                    <span class="badge" style="background: #f1f5f9; color: #475569;">Persian</span>
+                </div>
+                
+                <h3>خبرآنلاین</h3>
+                <div class="meta">News &bull; Iran</div>
+                <p class="desc">Khabar Online, a major Iranian news portal with breaking news, politics, economy, and analysis.</p>
+                
+                
+                <div class="tags-container">
+                    
+                    <span class="tag-pill" onclick="filterByTag('news')">#news</span>
+                    
+                    <span class="tag-pill" onclick="filterByTag('iran')">#iran</span>
+                    
+                    <span class="tag-pill" onclick="filterByTag('politics')">#politics</span>
+                    
+                    <span class="tag-pill" onclick="filterByTag('analysis')">#analysis</span>
+                    
+                </div>
+                
+                
+                <div class="actions">
+                    <a href="https://khabaronline.ir/" target="_blank" class="btn btn-primary">Visit</a>
+                    
+                </div>
+            </article>
+            
+            <article class="card" 
+                     data-title="شفقنا" 
+                     data-desc="shafaqna, international shia news agency covering shia-related and general news from iran and worldwide."
+                     data-category="News"
+                     data-type="News Website"
+                     data-country="Iran"
+                     data-language="Persian"
+                     data-tags="news|iran|shia|international">
+                
+                <div class="card-header">
+                    <span class="badge">News Website</span>
+                    <span class="badge" style="background: #f1f5f9; color: #475569;">Persian</span>
+                </div>
+                
+                <h3>شفقنا</h3>
+                <div class="meta">News &bull; Iran</div>
+                <p class="desc">Shafaqna, International Shia News Agency covering Shia-related and general news from Iran and worldwide.</p>
+                
+                
+                <div class="tags-container">
+                    
+                    <span class="tag-pill" onclick="filterByTag('news')">#news</span>
+                    
+                    <span class="tag-pill" onclick="filterByTag('iran')">#iran</span>
+                    
+                    <span class="tag-pill" onclick="filterByTag('shia')">#shia</span>
+                    
+                    <span class="tag-pill" onclick="filterByTag('international')">#international</span>
+                    
+                </div>
+                
+                
+                <div class="actions">
+                    <a href="https://shafaqna.com/" target="_blank" class="btn btn-primary">Visit</a>
+                    
+                </div>
+            </article>
+            
+            <article class="card" 
+                     data-title="فرارو" 
+                     data-desc="fararu, a popular persian news website focusing on daily news, politics, society, and analysis."
+                     data-category="News"
+                     data-type="News Website"
+                     data-country="Iran"
+                     data-language="Persian"
+                     data-tags="news|iran|politics">
+                
+                <div class="card-header">
+                    <span class="badge">News Website</span>
+                    <span class="badge" style="background: #f1f5f9; color: #475569;">Persian</span>
+                </div>
+                
+                <h3>فرارو</h3>
+                <div class="meta">News &bull; Iran</div>
+                <p class="desc">Fararu, a popular Persian news website focusing on daily news, politics, society, and analysis.</p>
+                
+                
+                <div class="tags-container">
+                    
+                    <span class="tag-pill" onclick="filterByTag('news')">#news</span>
+                    
+                    <span class="tag-pill" onclick="filterByTag('iran')">#iran</span>
+                    
+                    <span class="tag-pill" onclick="filterByTag('politics')">#politics</span>
+                    
+                </div>
+                
+                
+                <div class="actions">
+                    <a href="https://fararu.com/" target="_blank" class="btn btn-primary">Visit</a>
+                    
+                </div>
+            </article>
+            
+        </div>
+        
+        <div id="no-results" style="display:none; text-align:center; padding: 3rem 1rem; grid-column: 1/-1; color: var(--text-muted);">
+            No matching sources found.
+        </div>
+    </main>
+</div>
+
+<script id="sources-data" type="application/json">
+[{"title": "\u062c\u0648\u0627\u0646 \u0622\u0646\u0644\u0627\u06cc\u0646", "category": "News", "media_type": "News Website", "country": "Iran", "language": "Persian", "description": "Javan Online, a Persian news site covering politics, society, and current affairs in Iran.", "website_url": "https://javanonline.ir/", "website_text": "Visit Website", "rss_url": "", "tags": ["news", "iran", "politics"]}, {"title": "\u062e\u0628\u0631\u0622\u0646\u0644\u0627\u06cc\u0646", "category": "News", "media_type": "News Website", "country": "Iran", "language": "Persian", "description": "Khabar Online, a major Iranian news portal with breaking news, politics, economy, and analysis.", "website_url": "https://khabaronline.ir/", "website_text": "Visit Website", "rss_url": "", "tags": ["news", "iran", "politics", "analysis"]}, {"title": "\u0634\u0641\u0642\u0646\u0627", "category": "News", "media_type": "News Website", "country": "Iran", "language": "Persian", "description": "Shafaqna, International Shia News Agency covering Shia-related and general news from Iran and worldwide.", "website_url": "https://shafaqna.com/", "website_text": "Visit Website", "rss_url": "", "tags": ["news", "iran", "shia", "international"]}, {"title": "\u0641\u0631\u0627\u0631\u0648", "category": "News", "media_type": "News Website", "country": "Iran", "language": "Persian", "description": "Fararu, a popular Persian news website focusing on daily news, politics, society, and analysis.", "website_url": "https://fararu.com/", "website_text": "Visit Website", "rss_url": "", "tags": ["news", "iran", "politics"]}]
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const allSources = JSON.parse(document.getElementById('sources-data').textContent || '[]');
+    
+    const searchInput = document.getElementById('search');
+    const filterEls = {
+        category: document.getElementById('filter-category'),
+        type:     document.getElementById('filter-type'),
+        country:  document.getElementById('filter-country'),
+        language: document.getElementById('filter-language'),
+        tags:     document.getElementById('filter-tags'),
+    };
+
+    const countDisplay = document.getElementById('count');
+    const noResults = document.getElementById('no-results');
+    const downloadBtn = document.getElementById('download-json-btn');
+
+    function getVisibleCards() {
+        return document.querySelectorAll('.card');
+    }
+
+    function filter() {
+        const term = (searchInput?.value || "").toLowerCase().trim();
+        
+        const catVal    = filterEls.category?.value || "";
+        const typeVal   = filterEls.type?.value || "";
+        const countryVal = filterEls.country?.value || "";
+        const langVal   = filterEls.language?.value || "";
+        const tagsVal   = filterEls.tags?.value || "";
+
+        let visibleCount = 0;
+
+        getVisibleCards().forEach(card => {
+            const title     = (card.dataset.title || "").toLowerCase();
+            const desc      = (card.dataset.desc || "").toLowerCase();
+            const category  = card.dataset.category || "";
+            const type      = card.dataset.type || "";
+            const country   = card.dataset.country || "";
+            const language  = card.dataset.language || "";
+            const tags      = (card.dataset.tags || "").split('|').filter(Boolean);
+
+            const matchesSearch = !term || title.includes(term) || desc.includes(term);
+            const matchesCat    = !catVal    || category === catVal;
+            const matchesType   = !typeVal   || type === typeVal;
+            const matchesCountry= !countryVal|| country === countryVal;
+            const matchesLang   = !langVal   || language === langVal;
+            const matchesTag    = !tagsVal   || tags.includes(tagsVal);
+
+            if (matchesSearch && matchesCat && matchesType && matchesCountry && matchesLang && matchesTag) {
+                card.style.display = 'flex';
+                visibleCount++;
+            } else {
+                card.style.display = 'none';
+            }
+        });
+
+        countDisplay.textContent = visibleCount;
+        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+
+    // Download filtered JSON
+    downloadBtn.addEventListener('click', () => {
+        const visibleTitles = Array.from(getVisibleCards())
+            .filter(c => c.style.display !== 'none')
+            .map(c => c.querySelector('h3').textContent.trim());
+
+        const filteredData = allSources.filter(s => visibleTitles.includes(s.title));
+
+        const dataStr = JSON.stringify(filteredData, null, 2);
+        const blob = new Blob([dataStr], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = "awesome_media_filtered.json";
+        a.click();
+        
+        URL.revokeObjectURL(url);
+    });
+
+    // Tag click handler
+    window.filterByTag = function(tagName) {
+        if (filterEls.tags) {
+            filterEls.tags.value = tagName;
+            filter();
+        }
+    };
+
+    // Attach listeners safely
+    if (searchInput) searchInput.addEventListener('input', filter);
+    
+    Object.values(filterEls).forEach(el => {
+        if (el) el.addEventListener('change', filter);
+    });
+
+    // Initial filter
+    filter();
+});
+</script>
+</body>
+</html>

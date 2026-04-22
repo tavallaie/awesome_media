@@ -1,0 +1,68 @@
+[
+  {
+    "title": "جوان آنلاین",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Javan Online, a Persian news site covering politics, society, and current affairs in Iran.",
+    "website_url": "https://javanonline.ir/",
+    "website_text": "Visit Website",
+    "rss_url": "",
+    "tags": [
+      "news",
+      "iran",
+      "politics"
+    ]
+  },
+  {
+    "title": "خبرآنلاین",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Khabar Online, a major Iranian news portal with breaking news, politics, economy, and analysis.",
+    "website_url": "https://khabaronline.ir/",
+    "website_text": "Visit Website",
+    "rss_url": "",
+    "tags": [
+      "news",
+      "iran",
+      "politics",
+      "analysis"
+    ]
+  },
+  {
+    "title": "شفقنا",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Shafaqna, International Shia News Agency covering Shia-related and general news from Iran and worldwide.",
+    "website_url": "https://shafaqna.com/",
+    "website_text": "Visit Website",
+    "rss_url": "",
+    "tags": [
+      "news",
+      "iran",
+      "shia",
+      "international"
+    ]
+  },
+  {
+    "title": "فرارو",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Fararu, a popular Persian news website focusing on daily news, politics, society, and analysis.",
+    "website_url": "https://fararu.com/",
+    "website_text": "Visit Website",
+    "rss_url": "",
+    "tags": [
+      "news",
+      "iran",
+      "politics"
+    ]
+  }
+]
