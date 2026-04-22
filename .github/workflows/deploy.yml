@@ -1,12 +1,11 @@
 name: Build and Deploy
 
 on:
-    # Trigger the workflow whenever you push to the main branch
     push:
         branches:
             - main
 
-# Allow the action to deploy to GitHub Pages
+# Give permission to write to the repository (needed for committing README)
 permissions:
     contents: write
 
@@ -17,6 +16,8 @@ jobs:
         steps:
             - name: Checkout code
               uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0 # Important for committing changes
 
             - name: Install Python
               uses: actions/setup-python@v5
@@ -31,13 +32,29 @@ jobs:
             - name: Install dependencies
               run: uv sync
 
-            - name: Build site
+            - name: Build site + Update README
               run: uv run make build
-              # This runs: PYTHONPATH=src uv run python -m awesome_media.generator
-              # Which creates the output/ folder
+
+            - name: Commit updated files (README + any other changes)
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+
+                  # Add all changed files (mainly README.md, but safe for others too)
+                  git add README.md
+
+                  # Commit only if there are actual changes
+                  if git diff --staged --quiet; then
+                    echo "No changes to commit"
+                  else
+                    git commit -m "chore: update README.md and site [skip ci]"
+                    git push
+                  fi
 
             - name: Deploy to GitHub Pages
-              uses: peaceiris/actions-gh-pages@v3
+              uses: peaceiris/actions-gh-pages@v4
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_dir: ./output
+                  publish_branch: gh-pages
+                  force_orphan: false
