@@ -1,0 +1,15 @@
+title: "فارس نیوز"
+category: "News"
+country: "Iran"
+language: "Persian"
+website:
+  url: "https://farsnews.ir/"
+  text: "Visit Website"
+media_type: "News Website"
+description: "Fars News Agency, a major Iranian news agency covering politics,
+  international, and domestic news."
+tags:
+  - news
+  - iran
+  - politics
+  - agency

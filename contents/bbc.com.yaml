@@ -1,0 +1,14 @@
+title: "BBC Persian"
+category: "News"
+country: "United Kingdom"
+language: "Persian"
+website:
+  url: "https://www.bbc.com/persian"
+  text: "Visit Website"
+media_type: "News Website"
+description: "BBC Persian service, providing international news, analysis, and reports in Persian."
+tags:
+  - news
+  - international
+  - bbc
+  - persian
