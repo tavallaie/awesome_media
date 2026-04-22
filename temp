@@ -1,0 +1,545 @@
+[
+    {
+        "name": "ilna",
+        "persian_name": "ایلنا",
+        "url": "https://ilna.ir/",
+        "categories": [
+            "government",
+            "reformist"
+        ]
+    },
+    {
+        "name": "jamaran",
+        "persian_name": "جماران",
+        "url": "https://jamaran.news/",
+        "categories": [
+            "government",
+            "reformist"
+        ]
+    },
+    {
+        "name": "entekhab",
+        "persian_name": "انتخاب",
+        "url": "https://entekhab.ir/",
+        "categories": [
+            "government",
+            "reformist"
+        ]
+    },
+    {
+        "name": "sharg",
+        "persian_name": "شرق",
+        "url": "https://sharghdaily.com/",
+        "categories": [
+            "government",
+            "reformist"
+        ]
+    },
+    {
+        "name": "asriran",
+        "persian_name": "عصرایران",
+        "url": "https://asriran.com/",
+        "categories": [
+            "government",
+            "reformist"
+        ]
+    },
+    {
+        "name": "rouydad24",
+        "persian_name": "رویداد۲۴",
+        "url": "https://rouydad24.ir/",
+        "categories": [
+            "government",
+            "reformist"
+        ]
+    },
+    {
+        "name": "aftab",
+        "persian_name": "آفتاب",
+        "url": "https://aftabnews.ir/",
+        "categories": [
+            "government",
+            "reformist"
+        ]
+    },
+    {
+        "name": "etemad",
+        "persian_name": "اعتماد",
+        "url": "https://etemadonline.com/",
+        "categories": [
+            "government",
+            "reformist"
+        ]
+    },
+    {
+        "name": "fars",
+        "persian_name": "فارس",
+        "url": "https://farsnews.ir/",
+        "categories": [
+            "government",
+            "conservative"
+        ]
+    },
+    {
+        "name": "tasnim",
+        "persian_name": "تسنیم",
+        "url": "https://tasnimnews.com/",
+        "categories": [
+            "government",
+            "conservative"
+        ]
+    },
+    {
+        "name": "mehr",
+        "persian_name": "مهر",
+        "url": "https://mehrnews.com/",
+        "categories": [
+            "government",
+            "conservative"
+        ]
+    },
+    {
+        "name": "mashregh",
+        "persian_name": "مشرق",
+        "url": "https://mashreghnews.ir/",
+        "categories": [
+            "government",
+            "conservative"
+        ]
+    },
+    {
+        "name": "raja",
+        "persian_name": "رجا",
+        "url": "https://rajanews.com/",
+        "categories": [
+            "government",
+            "conservative"
+        ]
+    },
+    {
+        "name": "jahannews",
+        "persian_name": "جهان نیوز",
+        "url": "https://jahannews.com/",
+        "categories": [
+            "government",
+            "conservative"
+        ]
+    },
+    {
+        "name": "tabnak",
+        "persian_name": "تابناک",
+        "url": "https://tabnak.ir/",
+        "categories": [
+            "government",
+            "conservative"
+        ]
+    },
+    {
+        "name": "alef",
+        "persian_name": "الف",
+        "url": "https://alef.ir/",
+        "categories": [
+            "government",
+            "conservative"
+        ]
+    },
+    {
+        "name": "javanonline",
+        "persian_name": "جوان آنلاین",
+        "url": "https://javanonline.ir/",
+        "categories": [
+            "government",
+            "conservative"
+        ]
+    },
+    {
+        "name": "khabaronline",
+        "persian_name": "خبرآنلاین",
+        "url": "https://khabaronline.ir/",
+        "categories": [
+            "inside iran",
+            "independent"
+        ]
+    },
+    {
+        "name": "fararu",
+        "persian_name": "فرارو",
+        "url": "https://fararu.com/",
+        "categories": [
+            "inside iran",
+            "independent"
+        ]
+    },
+    {
+        "name": "shafaqna",
+        "persian_name": "شفقنا",
+        "url": "https://shafaqna.com/",
+        "categories": [
+            "inside iran",
+            "independent"
+        ]
+    },
+    {
+        "name": "parsine",
+        "persian_name": "پارسینه",
+        "url": "https://parsine.com/",
+        "categories": [
+            "inside iran",
+            "independent"
+        ]
+    },
+    {
+        "name": "khabarfoori",
+        "persian_name": "خبرفوری",
+        "url": "https://khabarfoori.com/",
+        "categories": [
+            "inside iran",
+            "independent"
+        ]
+    },
+    {
+        "name": "isna",
+        "persian_name": "ایسنا",
+        "url": "https://isna.ir/",
+        "categories": [
+            "university"
+        ]
+    },
+    {
+        "name": "SNN",
+        "persian_name": "خبرگزاری دانشجو",
+        "url": "https://snn.ir/",
+        "categories": [
+            "university"
+        ]
+    },
+    {
+        "name": "ana",
+        "persian_name": "آنا",
+        "url": "https://ana.ir/",
+        "categories": [
+            "university"
+        ]
+    },
+    {
+        "name": "sinapress",
+        "persian_name": "سیناپرس",
+        "url": "https://sinapress.ir/",
+        "categories": [
+            "university"
+        ]
+    },
+    {
+        "name": "iqna",
+        "persian_name": "ایکنا",
+        "url": "https://iqna.ir/",
+        "categories": [
+            "university"
+        ]
+    },
+    {
+        "name": "bbc_persian",
+        "persian_name": "بی‌بی‌سی فارسی",
+        "url": "https://www.bbc.com/persian",
+        "categories": [
+            "opposition",
+            "international"
+        ]
+    },
+    {
+        "name": "iran_intl",
+        "persian_name": "ایران اینترنشنال",
+        "url": "https://www.iranintl.com/",
+        "categories": [
+            "opposition",
+            "right wing"
+        ]
+    },
+    {
+        "name": "radio_farda",
+        "persian_name": "رادیو فردا",
+        "url": "https://www.radiofarda.com/",
+        "categories": [
+            "opposition",
+            "international"
+        ]
+    },
+    {
+        "name": "voa_persian",
+        "persian_name": "صدای آمریکا",
+        "url": "https://ir.voanews.com/",
+        "categories": [
+            "opposition",
+            "international"
+        ]
+    },
+    {
+        "name": "dw_persian",
+        "persian_name": "دویچه وله فارسی",
+        "url": "https://www.dw.com/fa-ir/",
+        "categories": [
+            "opposition",
+            "international"
+        ]
+    },
+    {
+        "name": "independent_persian",
+        "persian_name": "ایندیپندنت فارسی",
+        "url": "https://www.independentpersian.com/",
+        "categories": [
+            "opposition",
+            "monarchist"
+        ]
+    },
+    {
+        "name": "kayhan_london",
+        "persian_name": "کیهان لندن",
+        "url": "https://kayhan.london/",
+        "categories": [
+            "opposition",
+            "monarchist"
+        ]
+    },
+    {
+        "name": "iranwire",
+        "persian_name": "ایران وایر",
+        "url": "https://iranwire.com/",
+        "categories": [
+            "opposition",
+            "republican"
+        ]
+    },
+    {
+        "name": "radio_zamaneh",
+        "persian_name": "رادیو زمانه",
+        "url": "https://www.radiozamaneh.com/",
+        "categories": [
+            "opposition",
+            "left wing"
+        ]
+    },
+    {
+        "name": "akhbar_rooz",
+        "persian_name": "اخبار روز",
+        "url": "https://www.akhbar-rooz.com/",
+        "categories": [
+            "opposition",
+            "left wing"
+        ]
+    },
+    {
+        "name": "zeitoon",
+        "persian_name": "زیتون",
+        "url": "https://www.zeitoons.com/",
+        "categories": [
+            "opposition",
+            "republican"
+        ]
+    },
+    {
+        "name": "kaleme",
+        "persian_name": "کلمه",
+        "url": "https://www.kaleme.com/",
+        "categories": [
+            "opposition",
+            "green movement"
+        ]
+    },
+    {
+        "name": "kurdpa",
+        "persian_name": "کوردپا",
+        "url": "https://kurdpa.net/",
+        "categories": [
+            "ethnics",
+            "kurdish"
+        ]
+    },
+    {
+        "name": "kurdistan24",
+        "persian_name": "کردستان ۲۴",
+        "url": "https://www.kurdistan24.net/fa",
+        "categories": [
+            "ethnics",
+            "kurdish"
+        ]
+    },
+    {
+        "name": "gunaz_tv",
+        "persian_name": "گوناز تی‌وی",
+        "url": "https://www.gunaz.tv/fa",
+        "categories": [
+            "ethnics",
+            "azerbaijani"
+        ]
+    },
+    {
+        "name": "halavash",
+        "persian_name": "حال وش",
+        "url": "https://halavash.org/",
+        "categories": [
+            "ethnics",
+            "baloch"
+        ]
+    },
+    {
+        "name": "balochcampaign",
+        "persian_name": "کمپین فعالین بلوچ",
+        "url": "https://balochcampaign.us/",
+        "categories": [
+            "ethnics",
+            "baloch"
+        ]
+    },
+    {
+        "name": "ahwazna",
+        "persian_name": "احوازنا",
+        "url": "https://ahwazna.net/",
+        "categories": [
+            "ethnics",
+            "arab"
+        ]
+    },
+    {
+        "name": "hrana",
+        "persian_name": "هرانا",
+        "url": "https://www.hra-news.org/",
+        "categories": [
+            "human rights"
+        ]
+    },
+    {
+        "name": "hengaw",
+        "persian_name": "هه‌نگاو",
+        "url": "https://hengaw.net/fa",
+        "categories": [
+            "human rights"
+        ]
+    },
+    {
+        "name": "iran_human_rights",
+        "persian_name": "سازمان حقوق بشر ایران",
+        "url": "https://iranhr.net/fa/",
+        "categories": [
+            "human rights"
+        ]
+    },
+    {
+        "name": "chri",
+        "persian_name": "کمپین حقوق بشر در ایران",
+        "url": "https://persian.iranhumanrights.org/",
+        "categories": [
+            "human rights"
+        ]
+    },
+    {
+        "name": "6rang",
+        "persian_name": "شش‌رنگ",
+        "url": "https://6rang.org/",
+        "categories": [
+            "human rights",
+            "lgbt"
+        ]
+    },
+    {
+        "name": "radio_ranginkaman",
+        "persian_name": "رادیو رنگین‌کمان",
+        "url": "https://radioranginkaman.org/",
+        "categories": [
+            "human rights",
+            "lgbt"
+        ]
+    },
+    {
+        "name": "gil_khabar",
+        "persian_name": "گیل خبر",
+        "url": "https://gilkhabar.ir/",
+        "categories": [
+            "ethnics",
+            "gilaki"
+        ]
+    },
+    {
+        "name": "mazandnume",
+        "persian_name": "مازندنومه",
+        "url": "https://www.mazandnume.com/",
+        "categories": [
+            "ethnics",
+            "mazandarani"
+        ]
+    },
+    {
+        "name": "turkmen_news",
+        "persian_name": "ترکمن نیوز",
+        "url": "https://turkmensnews.com/",
+        "categories": [
+            "ethnics",
+            "turkmen"
+        ]
+    },
+    {
+        "name": "yafte_news",
+        "persian_name": "یافته (لرستان)",
+        "url": "https://yaftenews.ir/",
+        "categories": [
+            "ethnics",
+            "luri"
+        ]
+    },
+    {
+        "name": "qashqai_online",
+        "persian_name": "قشقایی آنلاین",
+        "url": "https://qashqaionline.ir/",
+        "categories": [
+            "ethnics",
+            "qashqai"
+        ]
+    },
+    {
+        "name": "ecoiran",
+        "persian_name": "اکوایران",
+        "url": "https://ecoiran.com/",
+        "categories": [
+            "other"
+        ]
+    },
+    {
+        "name": "tejaratnews",
+        "persian_name": "تجارت‌نیوز",
+        "url": "https://tejaratnews.com/",
+        "categories": [
+            "other"
+        ]
+    },
+    {
+        "name": "zoomit",
+        "persian_name": "زومیت",
+        "url": "https://www.zoomit.ir/",
+        "categories": [
+            "other"
+        ]
+    },
+    {
+        "name": "digiato",
+        "persian_name": "دیجیاتو",
+        "url": "https://digiato.com/",
+        "categories": [
+            "other"
+        ]
+    },
+    {
+        "name": "peivast",
+        "persian_name": "پیوست",
+        "url": "https://peivast.com/",
+        "categories": [
+            "other"
+        ]
+    },
+    {
+        "name": "zistonline",
+        "persian_name": "زیست‌آنلاین",
+        "url": "https://www.zistonline.com/",
+        "categories": [
+            "other"
+        ]
+    }
+]

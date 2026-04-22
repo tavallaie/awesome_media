@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Media Catalog</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --radius: 8px;
+            --font-sans: 'Segoe UI', system-ui, sans-serif;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .layout {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 2rem;
+        }
+
+        header {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 2rem;
+        }
+        
+        header h1 { font-size: 1.5rem; font-weight: 800; color: var(--primary); }
+
+        aside {
+            background: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            height: fit-content;
+            position: sticky;
+            top: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .filter-group h3 {
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+
+        select, input {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            font-size: 0.95rem;
+        }
+
+        .export-box {
+            background: #f1f5f9;
+            padding: 1rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+        }
+        
+        .export-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: white;
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .export-btn:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            transform: translateX(4px);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+        }
+
+        .card-header { display: flex; justify-content: space-between; margin-bottom: 0.5rem; }
+        .badge {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 12px;
+            background: #e0f2fe;
+            color: #0284c7;
+            font-weight: 600;
+        }
+
+        .card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+        .meta { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; }
+        .desc { font-size: 0.95rem; color: #475569; margin-bottom: 1rem; flex-grow: 1; }
+
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 1rem;
+        }
+        
+        .tag-pill {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            background: #f1f5f9;
+            color: #475569;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        .tag-pill:hover {
+            background: #e2e8f0;
+            color: #0f172a;
+        }
+
+        .actions {
+            margin-top: auto;
+            display: flex;
+            gap: 10px;
+            border-top: 1px solid var(--border);
+            padding-top: 1rem;
+        }
+
+        .btn {
+            flex: 1;
+            text-align: center;
+            padding: 8px 12px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-rss { background: #fff7ed; color: #ea580c; border: 1px solid #ffedd5; }
+
+        @media (max-width: 800px) {
+            .layout { grid-template-columns: 1fr; }
+            aside { position: static; margin-bottom: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Awesome Media</h1>
+</header>
+
+<div class="layout">
+    <aside>
+        <div class="filter-group">
+            <h3>Search</h3>
+            <input type="text" id="search" placeholder="Name or description...">
+        </div>
+
+        <div class="filter-group">
+            <h3>Category</h3>
+            <select id="filter-category">
+                <option value="">All Categories</option>
+                {% for cat in categories %}
+                <option value="{{ cat }}">{{ cat }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <h3>Media Type</h3>
+            <select id="filter-type">
+                <option value="">All Types</option>
+                {% for type in media_types %}
+                <option value="{{ type }}">{{ type }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <h3>Country</h3>
+            <select id="filter-country">
+                <option value="">All Countries</option>
+                {% for country in countries %}
+                <option value="{{ country }}">{{ country }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <h3>Language</h3>
+            <select id="filter-language">
+                <option value="">All Languages</option>
+                {% for lang in languages %}
+                <option value="{{ lang }}">{{ lang }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <h3>Tags</h3>
+            <select id="filter-tags">
+                <option value="">All Tags</option>
+                {% for tag in all_tags %}
+                <option value="{{ tag }}">{{ tag }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="export-box">
+            <h3>Export Data</h3>
+            <a id="download-json-btn" class="export-btn" title="Download JSON data (Filtered)">
+                <span>Download JSON (Filtered)</span>
+                <span>&darr;</span>
+            </a>
+            <a href="feeds.opml" download class="export-btn">
+                <span>Import to RSS (OPML)</span>
+                <span>&rarr;</span>
+            </a>
+        </div>
+    </aside>
+
+    <main>
+        <div style="margin-bottom: 1rem; color: var(--text-muted);">
+            Showing <span id="count">0</span> sources
+        </div>
+        <div class="grid" id="card-grid">
+            {% for source in sources %}
+            <article class="card" 
+                     data-title="{{ source.title|lower }}" 
+                     data-desc="{{ source.description|lower|default('') }}"
+                     data-category="{{ source.category|default('') }}"
+                     data-type="{{ source.media_type|default('') }}"
+                     data-country="{{ source.country|default('') }}"
+                     data-language="{{ source.language|default('') }}"
+                     data-tags="{{ source.tags|join('|') if source.tags else '' }}">
+                
+                <div class="card-header">
+                    <span class="badge">{{ source.media_type }}</span>
+                    <span class="badge" style="background: #f1f5f9; color: #475569;">{{ source.language }}</span>
+                </div>
+                
+                <h3>{{ source.title }}</h3>
+                <div class="meta">{{ source.category }} &bull; {{ source.country }}</div>
+                <p class="desc">{{ source.description }}</p>
+                
+                {% if source.tags %}
+                <div class="tags-container">
+                    {% for tag in source.tags %}
+                    <span class="tag-pill" onclick="filterByTag('{{ tag }}')">#{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                
+                <div class="actions">
+                    <a href="{{ source.website_url }}" target="_blank" class="btn btn-primary">Visit</a>
+                    {% if source.rss_url %}
+                    <a href="{{ source.rss_url }}" target="_blank" class="btn btn-rss">RSS Feed</a>
+                    {% endif %}
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        
+        <div id="no-results" style="display:none; text-align:center; padding: 3rem 1rem; grid-column: 1/-1; color: var(--text-muted);">
+            No matching sources found.
+        </div>
+    </main>
+</div>
+
+<script id="sources-data" type="application/json">
+{{ sources_json | safe }}
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const allSources = JSON.parse(document.getElementById('sources-data').textContent || '[]');
+    
+    const searchInput = document.getElementById('search');
+    const filterEls = {
+        category: document.getElementById('filter-category'),
+        type:     document.getElementById('filter-type'),
+        country:  document.getElementById('filter-country'),
+        language: document.getElementById('filter-language'),
+        tags:     document.getElementById('filter-tags'),
+    };
+
+    const countDisplay = document.getElementById('count');
+    const noResults = document.getElementById('no-results');
+    const downloadBtn = document.getElementById('download-json-btn');
+
+    function getVisibleCards() {
+        return document.querySelectorAll('.card');
+    }
+
+    function filter() {
+        const term = (searchInput?.value || "").toLowerCase().trim();
+        
+        const catVal    = filterEls.category?.value || "";
+        const typeVal   = filterEls.type?.value || "";
+        const countryVal = filterEls.country?.value || "";
+        const langVal   = filterEls.language?.value || "";
+        const tagsVal   = filterEls.tags?.value || "";
+
+        let visibleCount = 0;
+
+        getVisibleCards().forEach(card => {
+            const title     = (card.dataset.title || "").toLowerCase();
+            const desc      = (card.dataset.desc || "").toLowerCase();
+            const category  = card.dataset.category || "";
+            const type      = card.dataset.type || "";
+            const country   = card.dataset.country || "";
+            const language  = card.dataset.language || "";
+            const tags      = (card.dataset.tags || "").split('|').filter(Boolean);
+
+            const matchesSearch = !term || title.includes(term) || desc.includes(term);
+            const matchesCat    = !catVal    || category === catVal;
+            const matchesType   = !typeVal   || type === typeVal;
+            const matchesCountry= !countryVal|| country === countryVal;
+            const matchesLang   = !langVal   || language === langVal;
+            const matchesTag    = !tagsVal   || tags.includes(tagsVal);
+
+            if (matchesSearch && matchesCat && matchesType && matchesCountry && matchesLang && matchesTag) {
+                card.style.display = 'flex';
+                visibleCount++;
+            } else {
+                card.style.display = 'none';
+            }
+        });
+
+        countDisplay.textContent = visibleCount;
+        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+
+    // Download filtered JSON
+    downloadBtn.addEventListener('click', () => {
+        const visibleTitles = Array.from(getVisibleCards())
+            .filter(c => c.style.display !== 'none')
+            .map(c => c.querySelector('h3').textContent.trim());
+
+        const filteredData = allSources.filter(s => visibleTitles.includes(s.title));
+
+        const dataStr = JSON.stringify(filteredData, null, 2);
+        const blob = new Blob([dataStr], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = "awesome_media_filtered.json";
+        a.click();
+        
+        URL.revokeObjectURL(url);
+    });
+
+    // Tag click handler
+    window.filterByTag = function(tagName) {
+        if (filterEls.tags) {
+            filterEls.tags.value = tagName;
+            filter();
+        }
+    };
+
+    // Attach listeners safely
+    if (searchInput) searchInput.addEventListener('input', filter);
+    
+    Object.values(filterEls).forEach(el => {
+        if (el) el.addEventListener('change', filter);
+    });
+
+    // Initial filter
+    filter();
+});
+</script>
+</body>
+</html>

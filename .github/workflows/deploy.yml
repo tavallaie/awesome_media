@@ -1,0 +1,43 @@
+name: Build and Deploy
+
+on:
+    # Trigger the workflow whenever you push to the main branch
+    push:
+        branches:
+            - main
+
+# Allow the action to deploy to GitHub Pages
+permissions:
+    contents: write
+
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Install Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.10"
+
+            - name: Install UV
+              uses: astral-sh/setup-uv@v2
+              with:
+                  version: "latest"
+
+            - name: Install dependencies
+              run: uv sync
+
+            - name: Build site
+              run: uv run make build
+              # This runs: PYTHONPATH=src uv run python -m awesome_media.generator
+              # Which creates the output/ folder
+
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./output
