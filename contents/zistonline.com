@@ -6,8 +6,7 @@ website:
   url: "https://www.zistonline.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Zist Online, an environmental and sustainability news platform
-  covering ecology, wildlife, and green issues in Iran."
+description: "Zist Online, an environmental and sustainability news platform covering ecology, wildlife, and green issues in Iran."
 tags:
   - environment
   - sustainability

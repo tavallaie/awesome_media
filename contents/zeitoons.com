@@ -6,8 +6,7 @@ website:
   url: "https://www.zeitoons.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Zeitoons, a Persian news and analytical site featuring articles,
-  reports, and critical perspectives on Iran."
+description: "Zeitoons, a Persian news and analytical site featuring articles, reports, and critical perspectives on Iran."
 tags:
   - news
   - iran

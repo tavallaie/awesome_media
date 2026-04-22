@@ -6,8 +6,7 @@ website:
   url: "https://persian.iranhumanrights.org/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Center for Human Rights in Iran, providing Persian coverage of
-  human rights issues."
+description: "Center for Human Rights in Iran, providing Persian coverage of human rights issues."
 tags:
   - news
   - human-rights

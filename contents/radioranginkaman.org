@@ -6,8 +6,7 @@ website:
   url: "https://radioranginkaman.org/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Radio Rangin Kaman, a Persian LGBTQ+ focused radio and news
-  platform advocating for queer rights in Iran."
+description: "Radio Rangin Kaman, a Persian LGBTQ+ focused radio and news platform advocating for queer rights in Iran."
 tags:
   - news
   - lgbtq

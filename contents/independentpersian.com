@@ -6,8 +6,7 @@ website:
   url: "https://www.independentpersian.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Independent Persian, a Persian-language news and analysis site
-  covering Iran, politics, and society."
+description: "Independent Persian, a Persian-language news and analysis site covering Iran, politics, and society."
 tags:
   - news
   - iran

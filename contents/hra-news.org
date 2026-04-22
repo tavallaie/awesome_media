@@ -6,8 +6,7 @@ website:
   url: "https://www.hra-news.org/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Human Rights Activists News Agency (HRA), documenting human rights
-  violations in Iran."
+description: "Human Rights Activists News Agency (HRA), documenting human rights violations in Iran."
 tags:
   - news
   - human-rights

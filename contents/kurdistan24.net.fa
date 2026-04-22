@@ -6,8 +6,7 @@ website:
   url: "https://www.kurdistan24.net/fa"
   text: "Visit Website"
 media_type: "News Website"
-description: "Kurdistan 24 Persian, Kurdish news service covering regional and
-  Iranian Kurdish affairs."
+description: "Kurdistan 24 Persian, Kurdish news service covering regional and Iranian Kurdish affairs."
 tags:
   - news
   - kurdish

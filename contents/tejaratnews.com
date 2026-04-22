@@ -6,8 +6,7 @@ website:
   url: "https://tejaratnews.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Tejarat News, a leading Persian economic and business news portal
-  with focus on trade, markets, and industry."
+description: "Tejarat News, a leading Persian economic and business news portal with focus on trade, markets, and industry."
 tags:
   - news
   - economy

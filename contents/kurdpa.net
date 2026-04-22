@@ -6,8 +6,7 @@ website:
   url: "https://kurdpa.net/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Kurdpa, a Kurdish-Persian news agency focusing on Kurdish issues
-  and human rights in Iran."
+description: "Kurdpa, a Kurdish-Persian news agency focusing on Kurdish issues and human rights in Iran."
 tags:
   - news
   - kurdish

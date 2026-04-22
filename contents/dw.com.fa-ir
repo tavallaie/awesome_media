@@ -6,8 +6,7 @@ website:
   url: "https://www.dw.com/fa-ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Deutsche Welle Persian, German public international broadcaster
-  offering news, analysis, and reports in Persian."
+description: "Deutsche Welle Persian, German public international broadcaster offering news, analysis, and reports in Persian."
 tags:
   - news
   - iran

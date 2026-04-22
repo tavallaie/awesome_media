@@ -6,8 +6,7 @@ website:
   url: "https://www.mazandnume.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Mazandnume, a Mazandarani/Persian news and cultural site focused
-  on Mazandaran province."
+description: "Mazandnume, a Mazandarani/Persian news and cultural site focused on Mazandaran province."
 tags:
   - news
   - regional

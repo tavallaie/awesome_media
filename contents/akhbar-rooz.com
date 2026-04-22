@@ -6,8 +6,7 @@ website:
   url: "https://www.akhbar-rooz.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Akhbar Rooz, a left-leaning Persian political and news site with
-  critical analysis of Iranian affairs."
+description: "Akhbar Rooz, a left-leaning Persian political and news site with critical analysis of Iranian affairs."
 tags:
   - news
   - iran

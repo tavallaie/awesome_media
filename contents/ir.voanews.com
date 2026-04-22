@@ -6,8 +6,7 @@ website:
   url: "https://ir.voanews.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Voice of America Persian service, providing U.S.-funded news,
-  analysis, and reports on Iran and international affairs."
+description: "Voice of America Persian service, providing U.S.-funded news, analysis, and reports on Iran and international affairs."
 tags:
   - news
   - iran

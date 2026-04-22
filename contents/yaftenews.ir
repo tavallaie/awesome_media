@@ -6,8 +6,7 @@ website:
   url: "https://yaftenews.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Yafte News, a news website covering Lorestan province and general
-  Iranian affairs."
+description: "Yafte News, a news website covering Lorestan province and general Iranian affairs."
 tags:
   - news
   - regional

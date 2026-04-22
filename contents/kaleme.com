@@ -6,8 +6,7 @@ website:
   url: "https://www.kaleme.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Kaleme, a Persian news website associated with the Green Movement,
-  covering politics and current events."
+description: "Kaleme, a Persian news website associated with the Green Movement, covering politics and current events."
 tags:
   - news
   - iran

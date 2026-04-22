@@ -6,8 +6,7 @@ website:
   url: "https://gilkhabar.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Gil Khabar, a regional news site covering Gilan province, local
-  news, politics, and society."
+description: "Gil Khabar, a regional news site covering Gilan province, local news, politics, and society."
 tags:
   - news
   - regional
