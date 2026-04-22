@@ -1,37 +1,43 @@
-PY := uv run
+# =============================================
+# Awesome Media Catalog - Makefile
+# =============================================
 
-.PHONY: help build serve clean _serve_internal
+# Use 'uv run' to execute commands within the project environment
+UV := uv run
+
+# Export PYTHONPATH so Python can find the 'src' module
+export PYTHONPATH := src
+
+.PHONY: help build serve clean fix-extensions all run
 
 help:
 	@echo "Available targets:"
-	@echo "  build   - Generate README.md and output/index.html"
-	@echo "  serve   - Start a local web server and open the site"
-	@echo "  clean   - Remove output directory"
+	@echo "  build           - Generate README.md + output/index.html"
+	@echo "  fix-extensions  - Automatically add .yaml to files in contents/"
+	@echo "  serve           - Build and start local web server"
+	@echo "  clean           - Remove output directory"
 
-build:
-	PYTHONPATH=src $(PY) python -m awesome_media.generator
+# ====================== Main Targets ======================
 
-# Internal target to run the server
-_serve_internal:
-	cd output && $(PY) python -m http.server 8000
+build: fix-extensions
+	$(UV) python -m awesome_media.generator
+
+fix-extensions:
+	$(UV) python scripts/fix_content_extensions.py
 
 serve: build
-	@echo "Starting local server at http://localhost:8000 ..."
-	@echo "Press Ctrl+C to stop the server."
-	# Start server in background
-	@$(MAKE) _serve_internal &
-	# Wait briefly for server to start
-	@sleep 2
-	# Open browser based on OS
-	@if command -v xdg-open >/dev/null 2>&1; then \
-		xdg-open http://localhost:8000; \
-	elif command -v open >/dev/null 2>&1; then \
-		open http://localhost:8000; \
-	else \
-		echo "Server running at http://localhost:8000 (open manually)"; \
-	fi
-	# Bring the background job to foreground so Ctrl+C works
-	@wait
+	@echo "========================================"
+	@echo "Site built successfully!"
+	@echo "Starting local server at http://localhost:8000"
+	@echo "Press Ctrl+C to stop"
+	@echo "========================================"
+	cd output && $(UV) python -m http.server 8000
 
 clean:
 	rm -rf output
+	@echo "✅ Cleaned output directory"
+
+# ====================== Aliases ======================
+
+all: build
+run: serve
