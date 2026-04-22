@@ -2,7 +2,11 @@
 <opml version="1.0">
   <head>
     <title>Awesome Media Feeds</title>
-    <dateCreated>1776897506.1444433</dateCreated>
+    <dateCreated>1776900932.1458805</dateCreated>
   </head>
-  <body/>
+  <body>
+    <outline text="Technology" title="Technology">
+      <outline text="The Awesome Show" title="The Awesome Show" type="rss" htmlUrl="https://open.spotify.com/show/example" xmlUrl="https://feeds.transistor.fm/example"/>
+    </outline>
+  </body>
 </opml>
