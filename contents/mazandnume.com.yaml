@@ -1,15 +1,17 @@
-title: "مازندنومه Mazandnume"
-category: "News"
+title: "مازندنومه (Mazandnume)"
+category: "Society"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://www.mazandnume.com/"
+  url: "http://www.mazandnume.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Mazandnume, a Mazandarani/Persian news and cultural site focused
-  on Mazandaran province."
+description: "Local news and cultural portal specializing in the Mazandaran
+  province and Caspian region."
+rss_feed: "http://www.mazandnume.com/rss"
 tags:
-  - news
-  - regional
-  - mazandaran
+  - local
+  - society
+  - arts
+  - historical
   - iran

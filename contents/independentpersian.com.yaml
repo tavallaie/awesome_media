@@ -1,4 +1,4 @@
-title: "ایندیپندنت فارسی Independent Persian"
+title: "ایندیپندنت فارسی (Independent Persian)"
 category: "News"
 country: "United Kingdom"
 language: "Persian"
@@ -6,9 +6,12 @@ website:
   url: "https://www.independentpersian.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Independent Persian, a Persian-language news and analysis site
-  covering Iran, politics, and society."
+description: "The Persian edition of The Independent, covering global news,
+  analysis, and culture."
+rss_feed: "https://www.independentpersian.com/rss"
 tags:
-  - news
-  - iran
-  - independent
+  - global
+  - politics
+  - diplomacy
+  - lifestyle
+  - united-kingdom

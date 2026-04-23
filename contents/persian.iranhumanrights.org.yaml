@@ -1,14 +1,17 @@
-title: "مرکز حقوق بشر ایران Persian Iran Human Rights"
-category: "News"
-country: "Iran"
+title: "کمپین حقوق بشر ایران (CHRI)"
+category: "Society"
+country: "USA"
 language: "Persian"
 website:
   url: "https://persian.iranhumanrights.org/"
   text: "Visit Website"
-media_type: "News Website"
-description: "Center for Human Rights in Iran, providing Persian coverage of
-  human rights issues."
+media_type: "Organization Portal"
+description: "Center for Human Rights in Iran providing legal analysis and
+  reports on civil liberties."
+rss_feed: "https://persian.iranhumanrights.org/feed/"
 tags:
-  - news
   - human-rights
+  - society
+  - policy
+  - analysis
   - iran

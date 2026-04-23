@@ -1,14 +1,17 @@
-title: "کردستان ۲۴ Kurdistan 24"
-category: "News"
+title: "کوردستان ۲۴ (Kurdistan 24)"
+category: "Politics"
 country: "Iraq"
-language: "Persian"
+language: "Kurdish"
 website:
   url: "https://www.kurdistan24.net/fa"
   text: "Visit Website"
-media_type: "News Website"
-description: "Kurdistan 24 Persian, Kurdish news service covering regional and
-  Iranian Kurdish affairs."
+media_type: "TV Channel"
+description: "News broadcaster covering the Kurdistan region, Iraq, and broader
+  Middle East geopolitical issues."
+rss_feed: "https://www.kurdistan24.net/fa/rss"
 tags:
-  - news
-  - kurdish
-  - regional
+  - politics
+  - diplomacy
+  - global
+  - video
+  - iraq

@@ -1,15 +1,17 @@
-title: "اخبار روز Akhbar Rooz"
-category: "News"
-country: "Iran"
+title: "اخبار روز (Akhbar-Rooz)"
+category: "Politics"
+country: "Germany"
 language: "Persian"
 website:
   url: "https://www.akhbar-rooz.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Akhbar Rooz, a left-leaning Persian political and news site with
-  critical analysis of Iranian affairs."
+description: "Left-leaning independent news and analysis site covering Iranian
+  politics and labor movements."
+rss_feed: "https://www.akhbar-rooz.com/feed/"
 tags:
-  - news
-  - iran
   - politics
-  - left
+  - economy
+  - opinion
+  - analysis
+  - germany

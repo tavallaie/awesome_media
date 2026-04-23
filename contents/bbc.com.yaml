@@ -1,4 +1,4 @@
-title: "BBC Persian"
+title: "بی‌بی‌سی فارسی (BBC Persian)"
 category: "News"
 country: "United Kingdom"
 language: "Persian"
@@ -6,9 +6,12 @@ website:
   url: "https://www.bbc.com/persian"
   text: "Visit Website"
 media_type: "News Website"
-description: "BBC Persian service, providing international news, analysis, and reports in Persian."
+description: "International broadcaster providing global news, analysis, and
+  multimedia content in Persian."
+rss_feed: "https://www.bbc.com/persian/index.xml"
 tags:
-  - news
-  - international
-  - bbc
-  - persian
+  - global
+  - politics
+  - economy
+  - breaking
+  - united-kingdom

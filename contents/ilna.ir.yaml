@@ -1,15 +1,17 @@
-title: "ایلنا - خبرگزاری کار ایران"
-category: "News"
+title: "خبرگزاری ایلنا (ILNA)"
+category: "Economy"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://ilna.ir/"
+  url: "https://www.ilna.ir/"
   text: "Visit Website"
-media_type: "News Website"
-description: "Iranian Labor News Agency focusing on workers' rights, economy,
-  politics, and current events."
+media_type: "News Agency"
+description: "The Iranian Labour News Agency focuses on labor rights, trade
+  unions, and economic policy."
+rss_feed: "https://www.ilna.ir/fa/rss"
 tags:
-  - news
-  - iran
-  - labor
+  - economy
   - politics
+  - governance
+  - policy
+  - iran

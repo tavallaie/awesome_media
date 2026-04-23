@@ -1,14 +1,17 @@
-title: "پارسینه"
-category: "News"
+title: "پارسینه (Parsine)"
+category: "Society"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://parsine.com/"
+  url: "https://www.parsine.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Parsine, a news and analytical site covering Iranian politics, economy, and current events."
+description: "Digital platform covering social trends, entertainment news, and
+  political rumors."
+rss_feed: "https://www.parsine.com/fa/rss/allnews"
 tags:
-  - news
+  - society
+  - entertainment
+  - trending
+  - lifestyle
   - iran
-  - politics
-  - analysis

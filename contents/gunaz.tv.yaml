@@ -1,13 +1,17 @@
-title: "Gunaz TV"
-category: "News"
-country: "Iran"
-language: "Persian"
+title: "گوناز تی‌وی (Gunaz TV)"
+category: "Politics"
+country: "USA"
+language: "English"
 website:
-  url: "https://www.gunaz.tv/fa"
+  url: "https://gunaz.tv/en"
   text: "Visit Website"
-media_type: "News Website"
-description: "Gunaz TV, a news platform focused on Azerbaijani/Turkic issues in Iran."
+media_type: "TV Channel"
+description: "Broadcaster focusing on news and culture related to the
+  Azerbaijani community in Iran."
+rss_feed: "https://www.gunaz.tv/en/rss"
 tags:
-  - news
-  - azerbaijani
-  - iran
+  - politics
+  - society
+  - video
+  - global
+  - usa

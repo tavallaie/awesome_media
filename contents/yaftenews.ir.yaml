@@ -1,15 +1,17 @@
-title: "یافته نیوز Yafte News"
-category: "News"
+title: "یافته (Yafte News)"
+category: "Society"
 country: "Iran"
 language: "Persian"
 website:
   url: "https://yaftenews.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Yafte News, a news website covering Lorestan province and general
-  Iranian affairs."
+description: "Regional news outlet for the Lorestan province, covering social
+  and urban developments."
+rss_feed: "https://yaftenews.ir/fa/rss/allnews"
 tags:
-  - news
-  - regional
-  - lorestan
+  - local
+  - society
+  - environment
+  - breaking
   - iran

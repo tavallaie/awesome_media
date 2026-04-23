@@ -1,15 +1,17 @@
-title: "خبرآنلاین"
-category: "News"
+title: "خبر آنلاین (Khabar Online)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://khabaronline.ir/"
+  url: "https://www.khabaronline.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Khabar Online, a major Iranian news portal with breaking news,
-  politics, economy, and analysis."
+description: "High-traffic news platform covering a wide range of topics
+  including tech, politics, and sports."
+rss_feed: "https://www.khabaronline.ir/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
-  - analysis
+  - economy
+  - technology
+  - trending
+  - iran

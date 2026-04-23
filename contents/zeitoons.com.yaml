@@ -1,14 +1,17 @@
-title: "زیتون Zeitoons"
-category: "News"
-country: "Iran"
+title: "زیتون (Zeitoons)"
+category: "Politics"
+country: "Global"
 language: "Persian"
 website:
-  url: "https://www.zeitoons.com/"
+  url: "https://zeitoons.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Zeitoons, a Persian news and analytical site featuring articles,
-  reports, and critical perspectives on Iran."
+description: "Critical news and commentary site focusing on democratic reform
+  and intellectual discourse."
+rss_feed: "https://zeitoons.com/feed/"
 tags:
-  - news
-  - iran
+  - politics
+  - opinion
   - analysis
+  - governance
+  - global

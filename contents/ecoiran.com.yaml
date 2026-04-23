@@ -1,15 +1,17 @@
-title: "اکوایران EcoIran"
-category: "News"
+title: "اکوایران (EcoIran)"
+category: "Economy"
 country: "Iran"
 language: "Persian"
 website:
   url: "https://ecoiran.com/"
   text: "Visit Website"
-media_type: "News Website"
-description: "EcoIran, a specialized economic news website covering markets,
-  business, and financial news in Iran."
+media_type: "Video"
+description: "The primary multimedia platform for economic news, market
+  analysis, and financial interviews in Iran."
+rss_feed: "https://ecoiran.com/fa/rss/allnews"
 tags:
-  - news
   - economy
-  - business
+  - finance
+  - markets
+  - video
   - iran

@@ -1,15 +1,17 @@
-title: "اهوازنا Ahwazna"
-category: "News"
-country: "Iran"
-language: "Persian"
+title: "احوازنا (Ahwazna)"
+category: "Politics"
+country: "Netherlands"
+language: "Arabic"
 website:
   url: "https://ahwazna.net/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Ahwazna, a news site focusing on Arab/Ahwazi issues and human
-  rights in Khuzestan, Iran."
+description: "News portal focusing on the affairs of the Ahwazi Arab community
+  and regional human rights."
+rss_feed: "https://ahwazna.net/rss"
 tags:
-  - news
-  - ahwazi
-  - arab
+  - politics
+  - society
   - human-rights
+  - local
+  - netherlands

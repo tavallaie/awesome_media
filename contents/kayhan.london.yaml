@@ -1,14 +1,17 @@
-title: "کیهان لندن Kayhan London"
-category: "News"
+title: "کیهان لندن (Kayhan London)"
+category: "Politics"
 country: "United Kingdom"
 language: "Persian"
 website:
-  url: "https://kayhan.london/"
+  url: "https://kayhan.london/fa/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Kayhan London, an opposition Persian news site with critical
-  coverage of Iranian politics and current affairs."
+description: "Independent news outlet providing political analysis and cultural
+  content from an exiled perspective."
+rss_feed: "https://kayhan.london/fa/feed/"
 tags:
-  - news
-  - iran
-  - opposition
+  - politics
+  - historical
+  - opinion
+  - analysis
+  - united-kingdom

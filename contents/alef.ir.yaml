@@ -1,14 +1,17 @@
-title: "الف"
-category: "News"
+title: "سایت خبری الف (Alef)"
+category: "Economy"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://alef.ir/"
+  url: "https://www.alef.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Alef.ir, a news and analytical site covering politics, society, and culture in Iran."
+description: "Analytical platform focusing on public policy, economic
+  transparency, and legislative reviews."
+rss_feed: "https://www.alef.ir/fa/rss/allnews"
 tags:
-  - news
-  - iran
-  - politics
+  - economy
+  - governance
+  - policy
   - analysis
+  - iran

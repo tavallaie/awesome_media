@@ -1,14 +1,17 @@
-title: "آنا"
-category: "News"
+title: "خبرگزاری آنا (ANA)"
+category: "Technology"
 country: "Iran"
 language: "Persian"
 website:
   url: "https://ana.ir/"
   text: "Visit Website"
-media_type: "News Website"
-description: "ANA (University News Agency), covering university, student, political, and social news in Iran."
+media_type: "News Agency"
+description: "Azad News Agency, specializing in higher education news, science,
+  and technology."
+rss_feed: "https://ana.press/fa/rss/allnews"
 tags:
-  - news
+  - technology
+  - education
+  - science
+  - research
   - iran
-  - university
-  - students

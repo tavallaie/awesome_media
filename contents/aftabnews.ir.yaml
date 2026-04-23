@@ -1,13 +1,17 @@
-title: "آفتاب نیوز"
-category: "News"
+title: "آفتاب نیوز (Aftab News)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
   url: "https://aftabnews.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Aftab News, covering Iranian and world news, politics, and society."
+description: "Digital news agency covering domestic and international news with
+  an emphasis on economic and social issues."
+rss_feed: "https://aftabnews.ir/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
+  - economy
+  - breaking
+  - policy
+  - iran

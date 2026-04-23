@@ -1,15 +1,17 @@
-title: "رادیو رنگین‌کمان Radio Rangin Kaman"
-category: "News"
-country: "Iran"
+title: "رادیو رنگین‌کمان (Radio Ranginkaman)"
+category: "Society"
+country: "Global"
 language: "Persian"
 website:
   url: "https://radioranginkaman.org/"
   text: "Visit Website"
-media_type: "News Website"
-description: "Radio Rangin Kaman, a Persian LGBTQ+ focused radio and news
-  platform advocating for queer rights in Iran."
+media_type: "Podcast"
+description: "Broadcasting platform for the Iranian LGBTQ+ community, covering
+  identity and rights."
+rss_feed: "https://radioranginkaman.org/feed/"
 tags:
-  - news
-  - lgbtq
+  - society
   - human-rights
-  - iran
+  - podcast
+  - lifestyle
+  - global

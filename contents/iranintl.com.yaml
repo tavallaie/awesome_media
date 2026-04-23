@@ -1,14 +1,17 @@
-title: "ایران اینترنشنال"
+title: "ایران اینترنشنال (Iran International)"
 category: "News"
 country: "United Kingdom"
 language: "Persian"
 website:
   url: "https://www.iranintl.com/"
   text: "Visit Website"
-media_type: "News Website"
-description: "Iran International, an independent Persian-language news channel and website covering Iran and diaspora."
+media_type: "TV Channel"
+description: "Satellite TV and digital platform providing 24/7 news coverage for
+  the Persian-speaking world."
+rss_feed: "https://www.iranintl.com/rss/all"
 tags:
-  - news
-  - iran
-  - international
-  - opposition
+  - global
+  - politics
+  - video
+  - breaking
+  - united-kingdom

@@ -1,13 +1,17 @@
-title: "ایسنا"
-category: "News"
+title: "خبرگزاری ایسنا (ISNA)"
+category: "Society"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://isna.ir/"
+  url: "https://www.isna.ir/"
   text: "Visit Website"
-media_type: "News Website"
-description: "ISNA (Iranian Students' News Agency), a major Iranian news agency covering politics, culture, and society."
+media_type: "News Agency"
+description: "Iranian Students' News Agency covering a wide range of social,
+  scientific, and political topics."
+rss_feed: "https://www.isna.ir/fa/rss"
 tags:
-  - news
+  - society
+  - education
+  - science
+  - politics
   - iran
-  - agency

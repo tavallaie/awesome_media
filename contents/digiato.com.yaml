@@ -1,4 +1,4 @@
-title: "دیجیاتو Digiato"
+title: "دیجیاتو (Digiato)"
 category: "Technology"
 country: "Iran"
 language: "Persian"
@@ -6,10 +6,12 @@ website:
   url: "https://digiato.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Digiato, a prominent Persian technology and science news site with
-  reviews, news, and analysis."
+description: "Leading technology news website covering gadgets, software,
+  startups, and digital lifestyle."
+rss_feed: "https://digiato.com/feed"
 tags:
   - technology
   - gadgets
-  - science
-  - reviews
+  - software
+  - startups
+  - iran

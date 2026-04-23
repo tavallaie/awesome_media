@@ -1,15 +1,17 @@
-title: "رادیو زمانه Radio Zamaneh"
-category: "News"
+title: "رادیو زمانه (Radio Zamaneh)"
+category: "Society"
 country: "Netherlands"
 language: "Persian"
 website:
   url: "https://www.radiozamaneh.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Radio Zamaneh, an independent Persian radio and news service
-  offering reports, analysis, and discussions."
+description: "Independent media focusing on civil society, environment, and
+  progressive politics in Iran."
+rss_feed: "https://www.radiozamaneh.com/feed/"
 tags:
-  - news
-  - iran
-  - radio
-  - independent
+  - society
+  - environment
+  - arts
+  - opinion
+  - netherlands

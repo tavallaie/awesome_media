@@ -1,13 +1,17 @@
-title: "خبر فوری"
+title: "خبر فوری (Khabar Foori)"
 category: "News"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://khabarfoori.com/"
+  url: "https://www.khabarfoori.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Khabar Foori, a fast-breaking news site delivering urgent and real-time Iranian and world news."
+description: "Digital platform specializing in rapid updates on breaking news,
+  trending topics, and social events."
+rss_feed: "https://www.khabarfoori.com/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - breaking
+  - trending
+  - society
+  - sports
+  - iran

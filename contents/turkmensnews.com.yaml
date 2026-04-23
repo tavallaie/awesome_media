@@ -1,14 +1,17 @@
-title: "Turkmens News"
-category: "News"
+title: "ترکمن‌نیوز (TurkmensNews)"
+category: "Society"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://turkmensnews.com/"
+  url: "http://turkmensnews.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Turkmens News, a platform covering news and issues of the Turkmen community in Iran."
+description: "News and culture portal dedicated to the Turkmen community in Iran
+  and the Caspian region."
+rss_feed: "http://turkmensnews.com/fa/rss/allnews"
 tags:
-  - news
-  - turkmen
-  - regional
+  - local
+  - historical
+  - society
+  - arts
   - iran

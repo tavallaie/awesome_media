@@ -1,14 +1,17 @@
-title: "شرق"
-category: "News"
+title: "روزنامه شرق (Shargh Daily)"
+category: "Society"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://sharghdaily.com/"
+  url: "https://www.sharghdaily.com/"
   text: "Visit Website"
-media_type: "News Website"
-description: "Shargh Daily, a prominent Persian newspaper site covering
-  politics, culture, and society."
+media_type: "Newspaper"
+description: "One of Iran's most influential reformist newspapers, focusing on
+  deep-dive reporting."
+rss_feed: "https://www.sharghdaily.com/fa/rss/allnews"
 tags:
-  - news
+  - society
+  - arts
+  - opinion
+  - deep-dive
   - iran
-  - politics

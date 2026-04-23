@@ -1,14 +1,17 @@
-title: "رادیو فردا"
+title: "رادیو فردا (Radio Farda)"
 category: "News"
-country: "United States"
+country: "Czech Republic"
 language: "Persian"
 website:
   url: "https://www.radiofarda.com/"
   text: "Visit Website"
-media_type: "News Website"
-description: "Radio Farda, U.S.-funded Persian radio and news service focusing on Iran, democracy, and human rights."
+media_type: "Podcast"
+description: "The Persian service of RFE/RL, offering independent news and
+  cultural programming."
+rss_feed: "https://www.radiofarda.com/rss"
 tags:
-  - news
-  - iran
-  - radio
-  - international
+  - global
+  - politics
+  - podcast
+  - breaking
+  - czech-republic

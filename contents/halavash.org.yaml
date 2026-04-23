@@ -1,13 +1,17 @@
-title: " Halavash"
-category: "News"
-country: "Iran"
+title: "حال وش (Haalvsh)"
+category: "Society"
+country: "Global"
 language: "Persian"
 website:
   url: "https://halavash.org/"
   text: "Visit Website"
-media_type: "News Website"
-description: "Halavash, a news site covering Baloch and southeastern Iran issues and human rights."
+media_type: "Organization Portal"
+description: "Focuses on human rights issues and news related to the Sistan and
+  Baluchestan region."
+rss_feed: "https://halavash.org/feed/"
 tags:
-  - news
-  - baloch
   - human-rights
+  - society
+  - local
+  - research
+  - global

@@ -1,14 +1,17 @@
-title: "خبرگزاری دانشجو"
-category: "News"
+title: "خبرگزاری دانشجو (SNN)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
   url: "https://snn.ir/"
   text: "Visit Website"
-media_type: "News Website"
-description: "SNN (Student News Network), a student-oriented news agency focusing on university, political, and social news."
+media_type: "News Agency"
+description: "Student News Network focusing on revolutionary ideals, campus
+  news, and political policy."
+rss_feed: "https://snn.ir/fa/rss/allnews"
 tags:
-  - news
+  - politics
+  - education
+  - governance
+  - analysis
   - iran
-  - students
-  - agency

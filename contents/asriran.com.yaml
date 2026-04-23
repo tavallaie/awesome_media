@@ -1,14 +1,17 @@
-title: "عصر ایران"
-category: "News"
+title: "عصر ایران (Asr Iran)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://asriran.com/"
+  url: "https://www.asriran.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Asr Iran, a popular news site with articles on politics, economy,
-  and daily events in Iran."
+description: "A digital news portal covering a wide spectrum of topics including
+  politics, sports, and lifestyle."
+rss_feed: "https://www.asriran.com/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
+  - lifestyle
+  - trending
+  - analysis
+  - iran

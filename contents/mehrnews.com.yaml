@@ -1,14 +1,17 @@
-title: "مهر"
-category: "News"
+title: "خبرگزاری مهر (Mehr News)"
+category: "Society"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://mehrnews.com/"
+  url: "https://www.mehrnews.com/"
   text: "Visit Website"
-media_type: "News Website"
-description: "Mehr News Agency, a leading Iranian news source on politics, economy, and culture."
+media_type: "News Agency"
+description: "Comprehensive news agency covering culture, science, technology,
+  and international news."
+rss_feed: "https://www.mehrnews.com/rss"
 tags:
-  - news
+  - society
+  - technology
+  - arts
+  - global
   - iran
-  - politics
-  - agency

@@ -1,15 +1,17 @@
-title: "تجارت نیوز Tejarat News"
-category: "News"
+title: "تجارت‌نیوز (TejaratNews)"
+category: "Economy"
 country: "Iran"
 language: "Persian"
 website:
   url: "https://tejaratnews.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Tejarat News, a leading Persian economic and business news portal
-  with focus on trade, markets, and industry."
+description: "Digital media specializing in financial markets, stock exchanges,
+  and economic analysis."
+rss_feed: "https://tejaratnews.com/fa/rss/allnews"
 tags:
-  - news
   - economy
-  - business
-  - trade
+  - finance
+  - markets
+  - startups
+  - iran

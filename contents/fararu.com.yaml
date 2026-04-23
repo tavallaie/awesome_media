@@ -1,14 +1,17 @@
-title: "فرارو"
-category: "News"
+title: "فرارو (Fararu)"
+category: "Society"
 country: "Iran"
 language: "Persian"
 website:
   url: "https://fararu.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Fararu, a popular Persian news website focusing on daily news,
-  politics, society, and analysis."
+description: "An analytical news platform focusing on political, economic, and
+  cultural developments with a critical lens."
+rss_feed: "https://fararu.com/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
+  - society
+  - analysis
+  - lifestyle
+  - iran

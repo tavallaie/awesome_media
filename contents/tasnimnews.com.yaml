@@ -1,14 +1,17 @@
-title: "تسنیم"
-category: "News"
+title: "خبرگزاری تسنیم (Tasnim News)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://tasnimnews.com/"
+  url: "https://www.tasnimnews.com/"
   text: "Visit Website"
-media_type: "News Website"
-description: "Tasnim News Agency, providing comprehensive Iranian and global news."
+media_type: "News Agency"
+description: "News agency providing updates on Islamic world issues, defense,
+  and governance."
+rss_feed: "https://www.tasnimnews.com/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
-  - agency
+  - diplomacy
+  - governance
+  - global
+  - iran

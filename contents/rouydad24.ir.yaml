@@ -1,15 +1,17 @@
-title: "رویداد۲۴"
-category: "News"
+title: "رویداد۲۴ (Rouydad24)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://rouydad24.ir/"
+  url: "https://www.rouydad24.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Roozdaad24 / Rouydad24, an analytical news site focusing on
-  politics and current affairs."
+description: "Digital platform focused on political investigative reporting and
+  domestic economic issues."
+rss_feed: "https://www.rouydad24.ir/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
+  - economy
+  - breaking
   - analysis
+  - iran

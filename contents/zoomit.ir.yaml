@@ -1,4 +1,4 @@
-title: "زومیت Zoomit"
+title: "زومیت (Zoomit)"
 category: "Technology"
 country: "Iran"
 language: "Persian"
@@ -6,10 +6,12 @@ website:
   url: "https://www.zoomit.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Zoomit, one of Iran's most popular technology news websites
-  covering gadgets, science, and digital trends."
+description: "Premier technology media in Iran covering gadgets, AI, software
+  reviews, and hardware specs."
+rss_feed: "https://www.zoomit.ir/feed/"
 tags:
   - technology
   - gadgets
-  - science
+  - ai
+  - hardware
   - iran

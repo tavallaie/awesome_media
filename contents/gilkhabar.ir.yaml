@@ -1,15 +1,17 @@
-title: "گیل خبر Gil Khabar"
-category: "News"
+title: "گیل خبر (GilKhabar)"
+category: "Society"
 country: "Iran"
 language: "Persian"
 website:
   url: "https://gilkhabar.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Gil Khabar, a regional news site covering Gilan province, local
-  news, politics, and society."
+description: "Regional news outlet focusing on northern Iran, specifically the
+  Gilan province."
+rss_feed: "https://gilkhabar.ir/fa/rss/allnews"
 tags:
-  - news
-  - regional
-  - gilan
+  - local
+  - society
+  - environment
+  - governance
   - iran

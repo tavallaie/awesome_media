@@ -1,13 +1,17 @@
-title: "رجا نیوز"
-category: "News"
+title: "رجانیوز (Raja News)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://rajanews.com/"
+  url: "https://www.rajanews.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Raja News, a news and analysis site focused on Iranian politics and society."
+description: "A hardline conservative news site providing commentary on
+  revolutionary policy and defense."
+rss_feed: "https://www.rajanews.com/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
+  - governance
+  - diplomacy
+  - breaking
+  - iran

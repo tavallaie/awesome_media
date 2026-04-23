@@ -1,15 +1,17 @@
-title: "صدای آمریکا فارسی VOA Farsi"
+title: "صدای آمریکا (VOA Persian)"
 category: "News"
-country: "United States"
+country: "USA"
 language: "Persian"
 website:
   url: "https://ir.voanews.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Voice of America Persian service, providing U.S.-funded news,
-  analysis, and reports on Iran and international affairs."
+description: "Voice of America's Persian service, delivering US and
+  international news to Iran."
+rss_feed: "https://ir.voanews.com/rss"
 tags:
-  - news
-  - iran
-  - international
-  - voa
+  - global
+  - politics
+  - diplomacy
+  - video
+  - usa

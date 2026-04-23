@@ -1,13 +1,17 @@
-title: "سینا پرس"
-category: "News"
+title: "سیناپرس (Sinapress)"
+category: "Science"
 country: "Iran"
 language: "Persian"
 website:
   url: "https://sinapress.ir/"
   text: "Visit Website"
-media_type: "News Website"
-description: "Sina Press, a Persian news site providing political, economic, and current affairs coverage."
+media_type: "News Agency"
+description: "Science news agency covering health, technology, physics, and
+  medical research in Iran."
+rss_feed: "https://sinapress.ir/fa/rss/allnews"
 tags:
-  - news
+  - science
+  - medicine
+  - technology
+  - research
   - iran
-  - politics

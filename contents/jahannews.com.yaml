@@ -1,13 +1,17 @@
-title: "جهان نیوز"
-category: "News"
+title: "جهان نیوز (Jahan News)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://jahannews.com/"
+  url: "https://www.jahannews.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Jahan News, providing Iranian and international news coverage."
+description: "Conservative news platform focusing on national security,
+  governance, and traditional values."
+rss_feed: "https://www.jahannews.com/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
+  - governance
+  - historical
+  - diplomacy
+  - iran

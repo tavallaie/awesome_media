@@ -1,15 +1,17 @@
-title: "کردپا Kurdpa"
-category: "News"
-country: "Iran"
-language: "Persian"
+title: "کردپا (Kurdpa)"
+category: "Society"
+country: "Germany"
+language: "Kurdish"
 website:
-  url: "https://kurdpa.net/"
+  url: "https://kurdpa.net/fa"
   text: "Visit Website"
-media_type: "News Website"
-description: "Kurdpa, a Kurdish-Persian news agency focusing on Kurdish issues
-  and human rights in Iran."
+media_type: "News Agency"
+description: "Kurdistan Press Agency focusing on human rights and social news in
+  Kurdish areas."
+rss_feed: "https://kurdpa.net/fa/feed"
 tags:
-  - news
-  - kurdish
   - human-rights
-  - iran
+  - society
+  - local
+  - historical
+  - germany

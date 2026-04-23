@@ -1,14 +1,17 @@
-title: "جوان آنلاین"
-category: "News"
+title: "جوان آنلاین (Javan Online)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://javanonline.ir/"
+  url: "https://www.javanonline.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Javan Online, a Persian news site covering politics, society, and
-  current affairs in Iran."
+description: "Conservative outlet focusing on social affairs, defense, and the
+  concerns of the youth within a traditional framework."
+rss_feed: "https://www.javanonline.ir/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
+  - society
+  - policy
+  - education
+  - iran

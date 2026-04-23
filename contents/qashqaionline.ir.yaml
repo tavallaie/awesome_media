@@ -1,15 +1,17 @@
-title: "قشقایی آنلاین Qashqai Online"
-category: "News"
+title: "قشقایی آنلاین (Qashqai Online)"
+category: "Society"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://qashqaionline.ir/"
+  url: "http://qashqaionline.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Qashqai Online, a news and cultural platform dedicated to the
-  Qashqai Turkic tribal community in Iran."
+description: "Cultural and social news portal dedicated to the Qashqai nomadic
+  community and heritage."
+rss_feed: "http://qashqaionline.ir/fa/rss/allnews"
 tags:
-  - news
-  - qashqai
-  - cultural
+  - local
+  - historical
+  - society
+  - arts
   - iran

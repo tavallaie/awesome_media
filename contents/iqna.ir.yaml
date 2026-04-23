@@ -1,14 +1,17 @@
-title: "ایکنا"
-category: "News"
+title: "خبرگزاری ایکنا (IQNA)"
+category: "Society"
 country: "Iran"
 language: "Persian"
 website:
   url: "https://iqna.ir/"
   text: "Visit Website"
-media_type: "News Website"
-description: "IQNA (Quranic News Agency), focusing on Islamic, Quranic, and religious news alongside general affairs."
+media_type: "News Agency"
+description: "International Quran News Agency focusing on religious affairs,
+  culture, and Islamic philosophy."
+rss_feed: "https://iqna.ir/fa/rss/allnews"
 tags:
-  - news
+  - society
+  - historical
+  - arts
+  - religion
   - iran
-  - islamic
-  - quran

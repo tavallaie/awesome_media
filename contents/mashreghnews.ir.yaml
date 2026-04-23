@@ -1,13 +1,17 @@
-title: "مشرق نیوز"
-category: "News"
+title: "مشرق نیوز (Mashregh News)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://mashreghnews.ir/"
+  url: "https://www.mashreghnews.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Mashregh News, covering news, politics, and current events from an Iranian perspective."
+description: "Analytical news site focusing on geopolitical security, defense,
+  and international policy."
+rss_feed: "https://www.mashreghnews.ir/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
+  - governance
+  - historical
+  - analysis
+  - iran

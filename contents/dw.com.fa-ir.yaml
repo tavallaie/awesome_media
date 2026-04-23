@@ -1,0 +1,17 @@
+title: "دویچه وله فارسی (DW Persian)"
+category: "News"
+country: "Germany"
+language: "Persian"
+website:
+  url: "https://www.dw.com/fa-ir/"
+  text: "Visit Website"
+media_type: "News Website"
+description: "German public international broadcaster offering news, analysis,
+  and reports in Persian."
+rss_feed: "https://rss.dw.com/xml/rss-fa-all"
+tags:
+  - global
+  - politics
+  - diplomacy
+  - breaking
+  - germany

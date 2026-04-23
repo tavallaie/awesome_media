@@ -1,14 +1,17 @@
-title: "خبرگزاری هرانا HRA News"
-category: "News"
-country: "Iran"
+title: "هرانا (HRANA)"
+category: "Society"
+country: "USA"
 language: "Persian"
 website:
   url: "https://www.hra-news.org/"
   text: "Visit Website"
-media_type: "News Website"
-description: "Human Rights Activists News Agency (HRA), documenting human rights
-  violations in Iran."
+media_type: "News Agency"
+description: "Human Rights Activists News Agency providing documentation on
+  rights violations in Iran."
+rss_feed: "https://www.hra-news.org/feed/"
 tags:
-  - news
   - human-rights
-  - iran
+  - society
+  - documentation
+  - research
+  - usa

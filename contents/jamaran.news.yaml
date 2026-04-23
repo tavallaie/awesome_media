@@ -1,14 +1,17 @@
-title: "پایگاه خبری جماران"
-category: "News"
+title: "پایگاه خبری جماران (Jamaran)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://jamaran.news/"
+  url: "https://www.jamaran.news/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Jamaran News, a Persian news site covering politics, society, and
-  current Iranian affairs."
+description: "Analytical portal focusing on political and social affairs, often
+  centered on revolutionary heritage."
+rss_feed: "https://www.jamaran.news/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
+  - society
+  - historical
+  - governance
+  - iran

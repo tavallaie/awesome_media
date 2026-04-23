@@ -1,14 +1,17 @@
-title: "اعتمادآنلاین"
-category: "News"
+title: "اعتماد آنلاین (Etemad Online)"
+category: "Society"
 country: "Iran"
 language: "Persian"
 website:
   url: "https://etemadonline.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Etemad Online, associated with the Etemad newspaper, focusing on
-  news and analysis."
+description: "The digital arm of Etemad newspaper, focusing on political
+  analysis and social commentary."
+rss_feed: "https://etemadonline.com/fa/rss/allnews"
 tags:
-  - news
-  - iran
+  - society
   - politics
+  - opinion
+  - analysis
+  - iran

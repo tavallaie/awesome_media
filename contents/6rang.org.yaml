@@ -1,14 +1,17 @@
-title: "6Rang"
-category: "News"
-country: "Iran"
+title: "شش‌رنگ (6Rang)"
+category: "Society"
+country: "Germany"
 language: "Persian"
 website:
   url: "https://6rang.org/"
   text: "Visit Website"
-media_type: "News Website"
-description: "6Rang, an LGBTQ+ rights organization in Iran documenting discrimination and advocacy."
+media_type: "Organization Portal"
+description: "Iranian Lesbian and Transgender Network focusing on human rights
+  and sexual freedom."
+rss_feed: "https://6rang.org/feed/"
 tags:
-  - news
+  - society
   - human-rights
-  - lgbtq
-  - iran
+  - policy
+  - analysis
+  - global

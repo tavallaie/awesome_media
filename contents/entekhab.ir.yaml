@@ -1,14 +1,17 @@
-title: "انتخاب"
-category: "News"
+title: "پایگاه خبری انتخاب (Entekhab)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://entekhab.ir/"
+  url: "https://www.entekhab.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Entekhab.ir, a major Iranian news portal with politics, economy,
-  and breaking news."
+description: "Prominent news outlet covering Iranian domestic politics,
+  international relations, and social trends."
+rss_feed: "https://www.entekhab.ir/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
+  - diplomacy
+  - analysis
+  - breaking
+  - iran

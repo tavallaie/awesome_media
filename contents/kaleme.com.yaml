@@ -1,14 +1,17 @@
-title: "کلمه Kaleme"
-category: "News"
-country: "Iran"
+title: "کلمه (Kaleme)"
+category: "Politics"
+country: "Global"
 language: "Persian"
 website:
   url: "https://www.kaleme.com/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Kaleme, a Persian news website associated with the Green Movement,
-  covering politics and current events."
+description: "News platform associated with the Iranian Green Movement and
+  democratic reform efforts."
+rss_feed: "https://www.kaleme.com/feed/"
 tags:
-  - news
-  - iran
-  - green-movement
+  - politics
+  - human-rights
+  - analysis
+  - opinion
+  - global

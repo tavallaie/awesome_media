@@ -1,15 +1,17 @@
-title: "ایران‌وایر IranWire"
-category: "News"
-country: "United Kingdom"
+title: "ایران‌وایر (IranWire)"
+category: "Society"
+country: "Canada"
 language: "Persian"
 website:
-  url: "https://iranwire.com/"
+  url: "https://iranwire.com/fa/"
   text: "Visit Website"
 media_type: "News Website"
-description: "IranWire, an independent Persian news and investigative journalism
-  platform focusing on Iran and human rights."
+description: "Independent collaborative news site focusing on human rights and
+  investigative journalism."
+rss_feed: "https://iranwire.com/fa/rss"
 tags:
-  - news
-  - iran
-  - investigative
+  - society
   - human-rights
+  - deep-dive
+  - opinion
+  - canada

@@ -1,13 +1,17 @@
-title: "تابناک"
-category: "News"
+title: "تابناک (Tabnak)"
+category: "Politics"
 country: "Iran"
 language: "Persian"
 website:
-  url: "https://tabnak.ir/"
+  url: "https://www.tabnak.ir/"
   text: "Visit Website"
 media_type: "News Website"
-description: "Tabnak, a popular Persian news website with diverse coverage of current events."
+description: "High-traffic news site known for its commentary on economic
+  policies and transparency."
+rss_feed: "https://www.tabnak.ir/fa/rss/allnews"
 tags:
-  - news
-  - iran
   - politics
+  - economy
+  - analysis
+  - trending
+  - iran

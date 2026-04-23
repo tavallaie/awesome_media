@@ -1,13 +1,17 @@
-title: "هنگاو Hengaw"
-category: "News"
-country: "Iran"
-language: "Persian"
+title: "هه‌نگاو (Hengaw)"
+category: "Society"
+country: "Norway"
+language: "Kurdish"
 website:
   url: "https://hengaw.net/fa"
   text: "Visit Website"
-media_type: "News Website"
-description: "Hengaw, a human rights organization focusing on Kurdish regions of Iran."
+media_type: "Organization Portal"
+description: "Hengaw Organization for Human Rights monitors violations in
+  Kurdish regions of Iran."
+rss_feed: "https://hengaw.net/fa/feed"
 tags:
-  - news
   - human-rights
-  - kurdish
+  - politics
+  - local
+  - analysis
+  - norway

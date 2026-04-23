@@ -1,14 +1,16 @@
-title: "سازمان حقوق بشر ایران Iran Human Rights"
-category: "News"
+title: "سازمان حقوق بشر ایران (Iran Human Rights)"
+category: "Society"
 country: "Norway"
 language: "Persian"
 website:
   url: "https://iranhr.net/fa/"
   text: "Visit Website"
-media_type: "News Website"
-description: "Iran Human Rights (IHR), a Norway-based organization reporting on
-  human rights and executions in Iran."
+media_type: "Organization Portal"
+description: "NGO reporting on the death penalty, executions, and civil rights in Iran."
+rss_feed: "https://iranhr.net/fa/feed/"
 tags:
-  - news
   - human-rights
-  - iran
+  - society
+  - research
+  - policy
+  - norway
