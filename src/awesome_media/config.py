@@ -1,4 +1,22 @@
-generic_tags = [
+from pathlib import Path
+
+# --- Paths ---
+ROOT_DIR = Path(__file__).resolve().parent.parent.parent
+CONTENT_DIR = ROOT_DIR / "contents"
+OUTPUT_DIR = ROOT_DIR / "output"
+TEMPLATE_DIR = ROOT_DIR / "templates"
+README_PATH = ROOT_DIR / "index.md"
+
+OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
+
+# --- Validation Rules ---
+REQUIRED_FIELDS = ["title", "category", "country", "language", "website"]
+
+# Expanded list of allowed tags based on your current content
+ALLOWED_TAGS = [
+    # Business Models
+    "free",
+    "paid",
     # Core Topics
     "politics",
     "governance",
@@ -10,6 +28,7 @@ generic_tags = [
     "markets",
     "crypto",
     "startups",
+    "gadgets",
     "technology",
     "ai",
     "software",
@@ -35,6 +54,8 @@ generic_tags = [
     "health",
     "lifestyle",
     "travel",
+    "human-rights",
+    "religion",
     # Formats & Types
     "guide",
     "tutorial",
@@ -62,4 +83,31 @@ generic_tags = [
     "research",
     "review",
     "deep-dive",
+    # Countries (Based on error logs)
+    "iran",
+    "usa",
+    "united-kingdom",
+    "uk",
+    "germany",
+    "france",
+    "canada",
+    "netherlands",
+    "norway",
+    "iraq",
+    "turkey",
+    "afghanistan",
+    "pakistan",
+    "israel",
+    "saudi-arabia",
+    "uae",
+    "russia",
+    "china",
+    "syria",
+    "lebanon",
+    "czech-republic",
+    "sweden",
+    "switzerland",
+    "spain",
+    "italy",
+    "india",
 ]

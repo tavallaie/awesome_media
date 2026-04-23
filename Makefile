@@ -8,22 +8,25 @@ UV := uv run
 # Export PYTHONPATH so Python can find the 'src' module
 export PYTHONPATH := src
 
-.PHONY: help build serve clean fix-extensions all run
+.PHONY: help build serve clean fix-names all run
 
 help:
 	@echo "Available targets:"
-	@echo "  build           - Generate README.md + output/index.html"
-	@echo "  fix-extensions  - Automatically add .yaml to files in contents/"
+	@echo "  build           - Fix filenames and generate index.md + output/"
+	@echo "  fix-names       - Rename YAML files to match their internal website URLs"
 	@echo "  serve           - Build and start local web server"
 	@echo "  clean           - Remove output directory"
 
 # ====================== Main Targets ======================
 
-build: fix-extensions
-	$(UV) python -m awesome_media.generator
+# First, it runs 'fix-names' to ensure filenames match URLs, then builds
+build: fix-names
+	mkdir -p output
+	$(UV) python -m awesome_media.main
 
-fix-extensions:
-	$(UV) python scripts/fix_content_extensions.py
+# This target runs the script to rename files
+fix-names:
+	$(UV) python scripts/rename_mismatched_files.py
 
 serve: build
 	@echo "========================================"
