@@ -24,7 +24,7 @@
     "language": "Arabic",
     "description": "News portal focusing on the affairs of the Ahwazi Arab community and regional human rights.",
     "website_url": "https://ahwazna.net/",
-    "rss_url": "https://ahwazna.net/rss",
+    "rss_url": "",
     "tags": [
       "human-rights",
       "local",
@@ -58,7 +58,7 @@
     "language": "Persian",
     "description": "The digital arm of Etemad newspaper, focusing on political analysis and social commentary.",
     "website_url": "https://etemadonline.com/",
-    "rss_url": "https://etemadonline.com/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "analysis",
       "iran",
@@ -75,7 +75,7 @@
     "language": "Persian",
     "description": "The primary multimedia platform for economic news, market analysis, and financial interviews in Iran.",
     "website_url": "https://ecoiran.com/",
-    "rss_url": "https://ecoiran.com/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "economy",
       "finance",
@@ -92,7 +92,7 @@
     "language": "Persian",
     "description": "Satellite TV and digital platform providing 24/7 news coverage for the Persian-speaking world.",
     "website_url": "https://www.iranintl.com/",
-    "rss_url": "https://www.iranintl.com/rss/all",
+    "rss_url": "",
     "tags": [
       "breaking",
       "global",
@@ -109,7 +109,7 @@
     "language": "Persian",
     "description": "Independent collaborative news site focusing on human rights and investigative journalism.",
     "website_url": "https://iranwire.com/fa/",
-    "rss_url": "https://iranwire.com/fa/rss",
+    "rss_url": "",
     "tags": [
       "canada",
       "deep-dive",
@@ -126,7 +126,7 @@
     "language": "Persian",
     "description": "The Persian edition of The Independent, covering global news, analysis, and culture.",
     "website_url": "https://www.independentpersian.com/",
-    "rss_url": "https://www.independentpersian.com/rss",
+    "rss_url": "",
     "tags": [
       "diplomacy",
       "global",
@@ -177,7 +177,7 @@
     "language": "Persian",
     "description": "Digital media specializing in financial markets, stock exchanges, and economic analysis.",
     "website_url": "https://tejaratnews.com/",
-    "rss_url": "https://tejaratnews.com/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "economy",
       "finance",
@@ -194,7 +194,7 @@
     "language": "Persian",
     "description": "News and culture portal dedicated to the Turkmen community in Iran and the Caspian region.",
     "website_url": "http://turkmensnews.com/",
-    "rss_url": "http://turkmensnews.com/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "arts",
       "historical",
@@ -211,7 +211,7 @@
     "language": "Persian",
     "description": "Conservative news platform focusing on national security, governance, and traditional values.",
     "website_url": "https://www.jahannews.com/",
-    "rss_url": "https://www.jahannews.com/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "diplomacy",
       "governance",
@@ -245,7 +245,7 @@
     "language": "Persian",
     "description": "Focuses on human rights issues and news related to the Sistan and Baluchestan region.",
     "website_url": "https://halavash.org/",
-    "rss_url": "https://halavash.org/feed/",
+    "rss_url": "",
     "tags": [
       "global",
       "human-rights",
@@ -262,7 +262,7 @@
     "language": "Persian",
     "description": "High-traffic news platform covering a wide range of topics including tech, politics, and sports.",
     "website_url": "https://www.khabaronline.ir/",
-    "rss_url": "https://www.khabaronline.ir/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "economy",
       "iran",
@@ -279,7 +279,7 @@
     "language": "Persian",
     "description": "Digital platform specializing in rapid updates on breaking news, trending topics, and social events.",
     "website_url": "https://www.khabarfoori.com/",
-    "rss_url": "https://www.khabarfoori.com/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "breaking",
       "iran",
@@ -296,7 +296,7 @@
     "language": "Persian",
     "description": "Azad News Agency, specializing in higher education news, science, and technology.",
     "website_url": "https://ana.ir/",
-    "rss_url": "https://ana.press/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "education",
       "iran",
@@ -313,7 +313,7 @@
     "language": "Persian",
     "description": "Iranian Students' News Agency covering a wide range of social, scientific, and political topics.",
     "website_url": "https://www.isna.ir/",
-    "rss_url": "https://www.isna.ir/fa/rss",
+    "rss_url": "",
     "tags": [
       "education",
       "iran",
@@ -330,7 +330,7 @@
     "language": "Persian",
     "description": "The Iranian Labour News Agency focuses on labor rights, trade unions, and economic policy.",
     "website_url": "https://www.ilna.ir/",
-    "rss_url": "https://www.ilna.ir/fa/rss",
+    "rss_url": "",
     "tags": [
       "economy",
       "governance",
@@ -347,7 +347,7 @@
     "language": "Persian",
     "description": "International Quran News Agency focusing on religious affairs, culture, and Islamic philosophy.",
     "website_url": "https://iqna.ir/",
-    "rss_url": "https://iqna.ir/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "arts",
       "historical",
@@ -364,7 +364,7 @@
     "language": "Persian",
     "description": "News agency providing updates on Islamic world issues, defense, and governance.",
     "website_url": "https://www.tasnimnews.com/",
-    "rss_url": "https://www.tasnimnews.com/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "diplomacy",
       "global",
@@ -398,7 +398,7 @@
     "language": "Persian",
     "description": "Major news agency in Iran, providing extensive coverage on security, defense, and regional politics.",
     "website_url": "https://www.farsnews.ir/",
-    "rss_url": "https://www.farsnews.ir/fa/rss",
+    "rss_url": "",
     "tags": [
       "breaking",
       "diplomacy",
@@ -432,7 +432,7 @@
     "language": "Persian",
     "description": "German public international broadcaster offering news, analysis, and reports in Persian.",
     "website_url": "https://www.dw.com/fa-ir/",
-    "rss_url": "https://rss.dw.com/xml/rss-fa-all",
+    "rss_url": "",
     "tags": [
       "breaking",
       "diplomacy",
@@ -466,7 +466,7 @@
     "language": "Persian",
     "description": "Broadcasting platform for the Iranian LGBTQ+ community, covering identity and rights.",
     "website_url": "https://radioranginkaman.org/",
-    "rss_url": "https://radioranginkaman.org/feed/",
+    "rss_url": "",
     "tags": [
       "global",
       "human-rights",
@@ -483,7 +483,7 @@
     "language": "Persian",
     "description": "Independent media focusing on civil society, environment, and progressive politics in Iran.",
     "website_url": "https://www.radiozamaneh.com/",
-    "rss_url": "https://www.radiozamaneh.com/feed/",
+    "rss_url": "",
     "tags": [
       "arts",
       "environment",
@@ -500,7 +500,7 @@
     "language": "Persian",
     "description": "The Persian service of RFE/RL, offering independent news and cultural programming.",
     "website_url": "https://www.radiofarda.com/",
-    "rss_url": "https://www.radiofarda.com/rss",
+    "rss_url": "",
     "tags": [
       "breaking",
       "czech-republic",
@@ -517,7 +517,7 @@
     "language": "Persian",
     "description": "A hardline conservative news site providing commentary on revolutionary policy and defense.",
     "website_url": "https://www.rajanews.com/",
-    "rss_url": "https://www.rajanews.com/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "breaking",
       "diplomacy",
@@ -602,7 +602,7 @@
     "language": "Persian",
     "description": "Specialized platform focusing on environmental news, sustainability, and renewable energy.",
     "website_url": "https://zistonline.com/",
-    "rss_url": "https://zistonline.com/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "environment",
       "iran",
@@ -619,7 +619,7 @@
     "language": "Persian",
     "description": "NGO reporting on the death penalty, executions, and civil rights in Iran.",
     "website_url": "https://iranhr.net/fa/",
-    "rss_url": "https://iranhr.net/fa/feed/",
+    "rss_url": "",
     "tags": [
       "human-rights",
       "norway",
@@ -636,7 +636,7 @@
     "language": "Persian",
     "description": "Analytical platform focusing on public policy, economic transparency, and legislative reviews.",
     "website_url": "https://www.alef.ir/",
-    "rss_url": "https://www.alef.ir/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "analysis",
       "economy",
@@ -653,7 +653,7 @@
     "language": "Persian",
     "description": "Science news agency covering health, technology, physics, and medical research in Iran.",
     "website_url": "https://sinapress.ir/",
-    "rss_url": "https://sinapress.ir/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "iran",
       "medicine",
@@ -703,7 +703,7 @@
     "language": "Persian",
     "description": "Voice of America's Persian service, delivering US and international news to Iran.",
     "website_url": "https://ir.voanews.com/",
-    "rss_url": "https://ir.voanews.com/rss",
+    "rss_url": "",
     "tags": [
       "diplomacy",
       "global",
@@ -754,7 +754,7 @@
     "language": "Persian",
     "description": "Cultural and social news portal dedicated to the Qashqai nomadic community and heritage.",
     "website_url": "http://qashqaionline.ir/",
-    "rss_url": "http://qashqaionline.ir/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "arts",
       "historical",
@@ -771,7 +771,7 @@
     "language": "Persian",
     "description": "Local news and cultural portal specializing in the Mazandaran province and Caspian region.",
     "website_url": "http://www.mazandnume.com/",
-    "rss_url": "http://www.mazandnume.com/rss",
+    "rss_url": "",
     "tags": [
       "arts",
       "historical",
@@ -788,7 +788,7 @@
     "language": "Persian",
     "description": "Analytical news site focusing on geopolitical security, defense, and international policy.",
     "website_url": "https://www.mashreghnews.ir/",
-    "rss_url": "https://www.mashreghnews.ir/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "analysis",
       "governance",
@@ -822,7 +822,7 @@
     "language": "Kurdish",
     "description": "Hengaw Organization for Human Rights monitors violations in Kurdish regions of Iran.",
     "website_url": "https://hengaw.net/fa",
-    "rss_url": "https://hengaw.net/fa/feed",
+    "rss_url": "",
     "tags": [
       "analysis",
       "human-rights",
@@ -839,7 +839,7 @@
     "language": "Persian",
     "description": "Digital platform covering social trends, entertainment news, and political rumors.",
     "website_url": "https://www.parsine.com/",
-    "rss_url": "https://www.parsine.com/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "entertainment",
       "iran",
@@ -873,7 +873,7 @@
     "language": "Persian",
     "description": "Analytical portal focusing on political and social affairs, often centered on revolutionary heritage.",
     "website_url": "https://www.jamaran.news/",
-    "rss_url": "https://www.jamaran.news/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "governance",
       "historical",
@@ -907,7 +907,7 @@
     "language": "Kurdish",
     "description": "Kurdistan Press Agency focusing on human rights and social news in Kurdish areas.",
     "website_url": "https://kurdpa.net/fa",
-    "rss_url": "https://kurdpa.net/fa/feed",
+    "rss_url": "",
     "tags": [
       "germany",
       "historical",
@@ -924,7 +924,7 @@
     "language": "Persian",
     "description": "News platform associated with the Iranian Green Movement and democratic reform efforts.",
     "website_url": "https://www.kaleme.com/",
-    "rss_url": "https://www.kaleme.com/feed/",
+    "rss_url": "",
     "tags": [
       "analysis",
       "global",
@@ -958,7 +958,7 @@
     "language": "Persian",
     "description": "Human rights organization monitoring news and developments in the Sistan and Baluchestan region.",
     "website_url": "https://balochcampaign.us/",
-    "rss_url": "https://balochcampaign.us/feed/",
+    "rss_url": "",
     "tags": [
       "human-rights",
       "local",
@@ -975,7 +975,7 @@
     "language": "Kurdish",
     "description": "News broadcaster covering the Kurdistan region, Iraq, and broader Middle East geopolitical issues.",
     "website_url": "https://www.kurdistan24.net/fa",
-    "rss_url": "https://www.kurdistan24.net/fa/rss",
+    "rss_url": "",
     "tags": [
       "diplomacy",
       "global",
@@ -1009,7 +1009,7 @@
     "language": "English",
     "description": "Broadcaster focusing on news and culture related to the Azerbaijani community in Iran.",
     "website_url": "https://gunaz.tv/en",
-    "rss_url": "https://www.gunaz.tv/en/rss",
+    "rss_url": "",
     "tags": [
       "global",
       "politics",
@@ -1026,7 +1026,7 @@
     "language": "Persian",
     "description": "Broadcaster focusing on news and culture related to the Azerbaijani community in Iran.",
     "website_url": "https://gunaz.tv/fa",
-    "rss_url": "https://www.gunaz.tv/fa/rss",
+    "rss_url": "",
     "tags": [
       "global",
       "politics",
@@ -1043,7 +1043,7 @@
     "language": "Persian",
     "description": "Regional news outlet focusing on northern Iran, specifically the Gilan province.",
     "website_url": "https://gilkhabar.ir/",
-    "rss_url": "https://gilkhabar.ir/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "environment",
       "governance",
@@ -1060,7 +1060,7 @@
     "language": "Persian",
     "description": "Regional news outlet for the Lorestan province, covering social and urban developments.",
     "website_url": "https://yaftenews.ir/",
-    "rss_url": "https://yaftenews.ir/fa/rss/allnews",
+    "rss_url": "",
     "tags": [
       "breaking",
       "environment",
