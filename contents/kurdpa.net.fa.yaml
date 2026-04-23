@@ -8,7 +8,7 @@ website:
 media_type: "News Agency"
 description: "Kurdistan Press Agency focusing on human rights and social news in
   Kurdish areas."
-rss_feed: "https://kurdpa.net/fa/feed"
+#rss_feed: "https://kurdpa.net/fa/feed"
 tags:
   - human-rights
   - society

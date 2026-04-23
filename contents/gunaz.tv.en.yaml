@@ -8,7 +8,7 @@ website:
 media_type: "TV Channel"
 description: "Broadcaster focusing on news and culture related to the
   Azerbaijani community in Iran."
-rss_feed: "https://www.gunaz.tv/en/rss"
+#rss_feed: "https://www.gunaz.tv/en/rss"
 tags:
   - politics
   - society

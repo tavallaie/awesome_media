@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "A hardline conservative news site providing commentary on
   revolutionary policy and defense."
-rss_feed: "https://www.rajanews.com/fa/rss/allnews"
+#rss_feed: "https://www.rajanews.com/fa/rss/allnews"
 tags:
   - politics
   - governance

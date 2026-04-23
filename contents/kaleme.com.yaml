@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "News platform associated with the Iranian Green Movement and
   democratic reform efforts."
-rss_feed: "https://www.kaleme.com/feed/"
+#rss_feed: "https://www.kaleme.com/feed/"
 tags:
   - politics
   - human-rights

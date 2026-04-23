@@ -8,7 +8,7 @@ website:
 media_type: "News Agency"
 description: "Science news agency covering health, technology, physics, and
   medical research in Iran."
-rss_feed: "https://sinapress.ir/fa/rss/allnews"
+#rss_feed: "https://sinapress.ir/fa/rss/allnews"
 tags:
   - science
   - medicine

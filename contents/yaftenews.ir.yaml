@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "Regional news outlet for the Lorestan province, covering social
   and urban developments."
-rss_feed: "https://yaftenews.ir/fa/rss/allnews"
+#rss_feed: "https://yaftenews.ir/fa/rss/allnews"
 tags:
   - local
   - society

@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "Independent collaborative news site focusing on human rights and
   investigative journalism."
-rss_feed: "https://iranwire.com/fa/rss"
+#rss_feed: "https://iranwire.com/fa/rss"
 tags:
   - society
   - human-rights

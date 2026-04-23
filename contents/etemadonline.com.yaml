@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "The digital arm of Etemad newspaper, focusing on political
   analysis and social commentary."
-rss_feed: "https://etemadonline.com/fa/rss/allnews"
+#rss_feed: "https://etemadonline.com/fa/rss/allnews"
 tags:
   - society
   - politics

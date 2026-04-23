@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "The Persian edition of The Independent, covering global news,
   analysis, and culture."
-rss_feed: "https://www.independentpersian.com/rss"
+#rss_feed: "https://www.independentpersian.com/rss"
 tags:
   - global
   - politics

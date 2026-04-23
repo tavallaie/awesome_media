@@ -8,7 +8,7 @@ website:
 media_type: "Organization Portal"
 description: "Focuses on human rights issues and news related to the Sistan and
   Baluchestan region."
-rss_feed: "https://halavash.org/feed/"
+#rss_feed: "https://halavash.org/feed/"
 tags:
   - human-rights
   - society

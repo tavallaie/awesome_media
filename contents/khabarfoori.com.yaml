@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "Digital platform specializing in rapid updates on breaking news,
   trending topics, and social events."
-rss_feed: "https://www.khabarfoori.com/fa/rss/allnews"
+#rss_feed: "https://www.khabarfoori.com/fa/rss/allnews"
 tags:
   - breaking
   - trending

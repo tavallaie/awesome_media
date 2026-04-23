@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "Independent media focusing on civil society, environment, and
   progressive politics in Iran."
-rss_feed: "https://www.radiozamaneh.com/feed/"
+#rss_feed: "https://www.radiozamaneh.com/feed/"
 tags:
   - society
   - environment

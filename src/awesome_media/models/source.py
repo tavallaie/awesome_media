@@ -1,9 +1,13 @@
+import fastfeedparser
+from rich.console import Console
 from awesome_media.config import REQUIRED_FIELDS, ALLOWED_TAGS
 from awesome_media.utils.strings import url_to_filename
 
+console = Console()
+
 
 class Source:
-    def __init__(self, filepath, data):
+    def __init__(self, filepath, data, validate_rss=False):
         self.filepath = filepath
         self.raw_data = data
         self._errors = []
@@ -32,15 +36,71 @@ class Source:
         rss = data.get("rss_feed") or data.get("rss")
         self.rss_url = str(rss) if rss else ""
 
-        # 4. Normalize Tags (Deduplicate & Lowercase)
+        # 4. Validate RSS Link (Only if explicitly requested)
+        if validate_rss and self.rss_url:
+            self._validate_rss()
+
+        # 5. Normalize Tags
         raw_tags = data.get("tags", [])
         self.tags = sorted(list({str(t).strip().lower() for t in raw_tags if t}))
 
+    def _comment_rss_in_file(self):
+        """
+        Opens the YAML file on disk and comments out the invalid rss_feed line.
+        """
+        try:
+            with open(self.filepath, "r", encoding="utf-8") as f:
+                lines = f.readlines()
+
+            new_lines = []
+            changed = False
+
+            for line in lines:
+                stripped = line.lstrip()
+                if (
+                    stripped.startswith("rss_feed:") or stripped.startswith("rss:")
+                ) and not stripped.startswith("#"):
+                    new_lines.append("#" + line)
+                    changed = True
+                else:
+                    new_lines.append(line)
+
+            if changed:
+                with open(self.filepath, "w", encoding="utf-8") as f:
+                    f.writelines(new_lines)
+                console.print(
+                    f"[dim]✎[/dim] Commented out invalid RSS in {self.filepath.name}"
+                )
+
+        except Exception as e:
+            console.print(f"[red]Error updating file {self.filepath.name}: {e}[/red]")
+
+    def _validate_rss(self):
+        """
+        Checks if the RSS URL is valid using fastfeedparser.
+        If invalid, comments it out in the YAML file and clears self.rss_url.
+        """
+        try:
+            # Attempt to parse the feed
+            feed = fastfeedparser.parse(self.rss_url)
+
+            # Check if we actually got a feed back
+            if not feed or not feed.feed:
+                raise ValueError("Empty or invalid feed structure")
+
+        except Exception as e:
+            console.print(
+                f"[yellow]RSS Warning:[/yellow] Removing invalid feed for [bold]{self.title}[/bold]. "
+                f"Reason: {str(e)[:60]}..."
+            )
+
+            # 1. Comment it out in the file
+            self._comment_rss_in_file()
+
+            # 2. Clear the URL so it's not exported
+            self.rss_url = ""
+
     def to_dict(self):
-        """
-        Returns a dictionary safe for JSON serialization.
-        Excludes non-serializable objects like PosixPath.
-        """
         return {
             "title": self.title,
             "category": self.category,

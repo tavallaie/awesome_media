@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "Specialized platform focusing on environmental news,
   sustainability, and renewable energy."
-rss_feed: "https://zistonline.com/fa/rss/allnews"
+#rss_feed: "https://zistonline.com/fa/rss/allnews"
 tags:
   - environment
   - science

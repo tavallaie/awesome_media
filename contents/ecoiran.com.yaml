@@ -8,7 +8,7 @@ website:
 media_type: "Video"
 description: "The primary multimedia platform for economic news, market
   analysis, and financial interviews in Iran."
-rss_feed: "https://ecoiran.com/fa/rss/allnews"
+#rss_feed: "https://ecoiran.com/fa/rss/allnews"
 tags:
   - economy
   - finance

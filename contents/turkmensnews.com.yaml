@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "News and culture portal dedicated to the Turkmen community in Iran
   and the Caspian region."
-rss_feed: "http://turkmensnews.com/fa/rss/allnews"
+#rss_feed: "http://turkmensnews.com/fa/rss/allnews"
 tags:
   - local
   - historical

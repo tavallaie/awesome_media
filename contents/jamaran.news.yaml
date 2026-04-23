@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "Analytical portal focusing on political and social affairs, often
   centered on revolutionary heritage."
-rss_feed: "https://www.jamaran.news/fa/rss/allnews"
+#rss_feed: "https://www.jamaran.news/fa/rss/allnews"
 tags:
   - politics
   - society

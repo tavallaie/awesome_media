@@ -8,7 +8,7 @@ website:
 media_type: "News Agency"
 description: "Iranian Students' News Agency covering a wide range of social,
   scientific, and political topics."
-rss_feed: "https://www.isna.ir/fa/rss"
+#rss_feed: "https://www.isna.ir/fa/rss"
 tags:
   - society
   - education

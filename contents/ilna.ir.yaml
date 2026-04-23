@@ -8,7 +8,7 @@ website:
 media_type: "News Agency"
 description: "The Iranian Labour News Agency focuses on labor rights, trade
   unions, and economic policy."
-rss_feed: "https://www.ilna.ir/fa/rss"
+#rss_feed: "https://www.ilna.ir/fa/rss"
 tags:
   - economy
   - politics

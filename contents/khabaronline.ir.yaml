@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "High-traffic news platform covering a wide range of topics
   including tech, politics, and sports."
-rss_feed: "https://www.khabaronline.ir/fa/rss/allnews"
+#rss_feed: "https://www.khabaronline.ir/fa/rss/allnews"
 tags:
   - politics
   - economy

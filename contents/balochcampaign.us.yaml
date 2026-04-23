@@ -8,7 +8,7 @@ website:
 media_type: "Organization Portal"
 description: "Human rights organization monitoring news and developments in the
   Sistan and Baluchestan region."
-rss_feed: "https://balochcampaign.us/feed/"
+#rss_feed: "https://balochcampaign.us/feed/"
 tags:
   - politics
   - human-rights

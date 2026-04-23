@@ -8,7 +8,7 @@ website:
 media_type: "TV Channel"
 description: "Satellite TV and digital platform providing 24/7 news coverage for
   the Persian-speaking world."
-rss_feed: "https://www.iranintl.com/rss/all"
+#rss_feed: "https://www.iranintl.com/rss/all"
 tags:
   - global
   - politics

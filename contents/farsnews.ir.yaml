@@ -8,7 +8,7 @@ website:
 media_type: "News Agency"
 description: "Major news agency in Iran, providing extensive coverage on
   security, defense, and regional politics."
-rss_feed: "https://www.farsnews.ir/fa/rss"
+#rss_feed: "https://www.farsnews.ir/fa/rss"
 tags:
   - politics
   - diplomacy

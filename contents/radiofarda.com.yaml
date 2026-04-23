@@ -8,7 +8,7 @@ website:
 media_type: "Podcast"
 description: "The Persian service of RFE/RL, offering independent news and
   cultural programming."
-rss_feed: "https://www.radiofarda.com/rss"
+#rss_feed: "https://www.radiofarda.com/rss"
 tags:
   - global
   - politics

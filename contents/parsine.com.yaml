@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "Digital platform covering social trends, entertainment news, and
   political rumors."
-rss_feed: "https://www.parsine.com/fa/rss/allnews"
+#rss_feed: "https://www.parsine.com/fa/rss/allnews"
 tags:
   - society
   - entertainment

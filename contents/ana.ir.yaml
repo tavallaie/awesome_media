@@ -8,7 +8,7 @@ website:
 media_type: "News Agency"
 description: "Azad News Agency, specializing in higher education news, science,
   and technology."
-rss_feed: "https://ana.press/fa/rss/allnews"
+#rss_feed: "https://ana.press/fa/rss/allnews"
 tags:
   - technology
   - education

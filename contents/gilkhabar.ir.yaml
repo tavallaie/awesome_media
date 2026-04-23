@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "Regional news outlet focusing on northern Iran, specifically the
   Gilan province."
-rss_feed: "https://gilkhabar.ir/fa/rss/allnews"
+#rss_feed: "https://gilkhabar.ir/fa/rss/allnews"
 tags:
   - local
   - society

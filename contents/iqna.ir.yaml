@@ -8,7 +8,7 @@ website:
 media_type: "News Agency"
 description: "International Quran News Agency focusing on religious affairs,
   culture, and Islamic philosophy."
-rss_feed: "https://iqna.ir/fa/rss/allnews"
+#rss_feed: "https://iqna.ir/fa/rss/allnews"
 tags:
   - society
   - historical

@@ -7,7 +7,7 @@ website:
   text: "Visit Website"
 media_type: "Organization Portal"
 description: "NGO reporting on the death penalty, executions, and civil rights in Iran."
-rss_feed: "https://iranhr.net/fa/feed/"
+#rss_feed: "https://iranhr.net/fa/feed/"
 tags:
   - human-rights
   - society

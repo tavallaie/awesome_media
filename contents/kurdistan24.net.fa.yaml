@@ -8,7 +8,7 @@ website:
 media_type: "TV Channel"
 description: "News broadcaster covering the Kurdistan region, Iraq, and broader
   Middle East geopolitical issues."
-rss_feed: "https://www.kurdistan24.net/fa/rss"
+#rss_feed: "https://www.kurdistan24.net/fa/rss"
 tags:
   - politics
   - diplomacy

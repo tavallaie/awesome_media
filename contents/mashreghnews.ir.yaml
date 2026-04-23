@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "Analytical news site focusing on geopolitical security, defense,
   and international policy."
-rss_feed: "https://www.mashreghnews.ir/fa/rss/allnews"
+#rss_feed: "https://www.mashreghnews.ir/fa/rss/allnews"
 tags:
   - politics
   - governance

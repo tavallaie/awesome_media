@@ -7,7 +7,7 @@ console = Console()
 
 
 class YamlLoader:
-    def load(self):
+    def load(self, validate_rss=False):
         sources = []
         if not CONTENT_DIR.exists():
             console.print("[red]Error:[/red] 'contents' directory not found.")
@@ -26,9 +26,9 @@ class YamlLoader:
                 if not data:
                     continue
 
-                source = Source(file, data)
+                # Pass the flag here
+                source = Source(file, data, validate_rss=validate_rss)
 
-                # Perform validation (including filename check)
                 if source.validate():
                     sources.append(source)
                 else:

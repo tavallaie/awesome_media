@@ -8,7 +8,7 @@ website:
 media_type: "Organization Portal"
 description: "Hengaw Organization for Human Rights monitors violations in
   Kurdish regions of Iran."
-rss_feed: "https://hengaw.net/fa/feed"
+#rss_feed: "https://hengaw.net/fa/feed"
 tags:
   - human-rights
   - politics

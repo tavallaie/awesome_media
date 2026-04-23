@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "Digital media specializing in financial markets, stock exchanges,
   and economic analysis."
-rss_feed: "https://tejaratnews.com/fa/rss/allnews"
+#rss_feed: "https://tejaratnews.com/fa/rss/allnews"
 tags:
   - economy
   - finance

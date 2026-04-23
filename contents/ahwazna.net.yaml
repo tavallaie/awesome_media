@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "News portal focusing on the affairs of the Ahwazi Arab community
   and regional human rights."
-rss_feed: "https://ahwazna.net/rss"
+#rss_feed: "https://ahwazna.net/rss"
 tags:
   - politics
   - society

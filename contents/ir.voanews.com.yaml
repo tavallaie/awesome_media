@@ -8,7 +8,7 @@ website:
 media_type: "News Website"
 description: "Voice of America's Persian service, delivering US and
   international news to Iran."
-rss_feed: "https://ir.voanews.com/rss"
+#rss_feed: "https://ir.voanews.com/rss"
 tags:
   - global
   - politics
