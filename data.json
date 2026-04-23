@@ -1,1030 +1,1072 @@
 [
   {
-    "title": " Halavash",
-    "category": "News",
+    "title": "آفتاب نیوز (Aftab News)",
+    "category": "Politics",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Halavash, a news site covering Baloch and southeastern Iran issues and human rights.",
-    "website_url": "https://halavash.org/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "baloch",
-      "human-rights"
-    ]
-  },
-  {
-    "title": "6Rang",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "6Rang, an LGBTQ+ rights organization in Iran documenting discrimination and advocacy.",
-    "website_url": "https://6rang.org/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "human-rights",
-      "lgbtq",
-      "iran"
-    ]
-  },
-  {
-    "title": "BBC Persian",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "United Kingdom",
-    "language": "Persian",
-    "description": "BBC Persian service, providing international news, analysis, and reports in Persian.",
-    "website_url": "https://www.bbc.com/persian",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "international",
-      "bbc",
-      "persian"
-    ]
-  },
-  {
-    "title": "Gunaz TV",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Gunaz TV, a news platform focused on Azerbaijani/Turkic issues in Iran.",
-    "website_url": "https://www.gunaz.tv/fa",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "azerbaijani",
-      "iran"
-    ]
-  },
-  {
-    "title": "Turkmens News",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Turkmens News, a platform covering news and issues of the Turkmen community in Iran.",
-    "website_url": "https://turkmensnews.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "turkmen",
-      "regional",
-      "iran"
-    ]
-  },
-  {
-    "title": "آفتاب نیوز",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Aftab News, covering Iranian and world news, politics, and society.",
+    "description": "Digital news agency covering domestic and international news with an emphasis on economic and social issues.",
     "website_url": "https://aftabnews.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://aftabnews.ir/fa/rss/allnews",
     "tags": [
-      "news",
+      "breaking",
+      "economy",
       "iran",
+      "policy",
       "politics"
     ]
   },
   {
-    "title": "آنا",
-    "category": "News",
+    "title": "احوازنا (Ahwazna)",
+    "category": "Politics",
     "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "ANA (University News Agency), covering university, student, political, and social news in Iran.",
-    "website_url": "https://ana.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "university",
-      "students"
-    ]
-  },
-  {
-    "title": "اخبار روز Akhbar Rooz",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Akhbar Rooz, a left-leaning Persian political and news site with critical analysis of Iranian affairs.",
-    "website_url": "https://www.akhbar-rooz.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "politics",
-      "left"
-    ]
-  },
-  {
-    "title": "اعتمادآنلاین",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Etemad Online, associated with the Etemad newspaper, focusing on news and analysis.",
-    "website_url": "https://etemadonline.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "politics"
-    ]
-  },
-  {
-    "title": "الف",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Alef.ir, a news and analytical site covering politics, society, and culture in Iran.",
-    "website_url": "https://alef.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "politics",
-      "analysis"
-    ]
-  },
-  {
-    "title": "انتخاب",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Entekhab.ir, a major Iranian news portal with politics, economy, and breaking news.",
-    "website_url": "https://entekhab.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "politics"
-    ]
-  },
-  {
-    "title": "اهوازنا Ahwazna",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Ahwazna, a news site focusing on Arab/Ahwazi issues and human rights in Khuzestan, Iran.",
+    "country": "Netherlands",
+    "language": "Arabic",
+    "description": "News portal focusing on the affairs of the Ahwazi Arab community and regional human rights.",
     "website_url": "https://ahwazna.net/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://ahwazna.net/rss",
     "tags": [
-      "news",
-      "ahwazi",
-      "arab",
-      "human-rights"
-    ]
-  },
-  {
-    "title": "اکوایران EcoIran",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "EcoIran, a specialized economic news website covering markets, business, and financial news in Iran.",
-    "website_url": "https://ecoiran.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "economy",
-      "business",
-      "iran"
-    ]
-  },
-  {
-    "title": "ایران اینترنشنال",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "United Kingdom",
-    "language": "Persian",
-    "description": "Iran International, an independent Persian-language news channel and website covering Iran and diaspora.",
-    "website_url": "https://www.iranintl.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "international",
-      "opposition"
-    ]
-  },
-  {
-    "title": "ایران‌وایر IranWire",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "United Kingdom",
-    "language": "Persian",
-    "description": "IranWire, an independent Persian news and investigative journalism platform focusing on Iran and human rights.",
-    "website_url": "https://iranwire.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "investigative",
-      "human-rights"
-    ]
-  },
-  {
-    "title": "ایسنا",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "ISNA (Iranian Students' News Agency), a major Iranian news agency covering politics, culture, and society.",
-    "website_url": "https://isna.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "agency"
-    ]
-  },
-  {
-    "title": "ایلنا - خبرگزاری کار ایران",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Iranian Labor News Agency focusing on workers' rights, economy, politics, and current events.",
-    "website_url": "https://ilna.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "labor",
-      "politics"
-    ]
-  },
-  {
-    "title": "ایندیپندنت فارسی Independent Persian",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "United Kingdom",
-    "language": "Persian",
-    "description": "Independent Persian, a Persian-language news and analysis site covering Iran, politics, and society.",
-    "website_url": "https://www.independentpersian.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "independent"
-    ]
-  },
-  {
-    "title": "ایکنا",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "IQNA (Quranic News Agency), focusing on Islamic, Quranic, and religious news alongside general affairs.",
-    "website_url": "https://iqna.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "islamic",
-      "quran"
-    ]
-  },
-  {
-    "title": "تابناک",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Tabnak, a popular Persian news website with diverse coverage of current events.",
-    "website_url": "https://tabnak.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "politics"
-    ]
-  },
-  {
-    "title": "تجارت نیوز Tejarat News",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Tejarat News, a leading Persian economic and business news portal with focus on trade, markets, and industry.",
-    "website_url": "https://tejaratnews.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "economy",
-      "business",
-      "trade"
-    ]
-  },
-  {
-    "title": "تسنیم",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Tasnim News Agency, providing comprehensive Iranian and global news.",
-    "website_url": "https://tasnimnews.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "politics",
-      "agency"
-    ]
-  },
-  {
-    "title": "جهان نیوز",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Jahan News, providing Iranian and international news coverage.",
-    "website_url": "https://jahannews.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "politics"
-    ]
-  },
-  {
-    "title": "جوان آنلاین",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Javan Online, a Persian news site covering politics, society, and current affairs in Iran.",
-    "website_url": "https://javanonline.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "politics"
-    ]
-  },
-  {
-    "title": "خبر فوری",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Khabar Foori, a fast-breaking news site delivering urgent and real-time Iranian and world news.",
-    "website_url": "https://khabarfoori.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "breaking"
-    ]
-  },
-  {
-    "title": "خبرآنلاین",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Khabar Online, a major Iranian news portal with breaking news, politics, economy, and analysis.",
-    "website_url": "https://khabaronline.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "politics",
-      "analysis"
-    ]
-  },
-  {
-    "title": "خبرگزاری دانشجو",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "SNN (Student News Network), a student-oriented news agency focusing on university, political, and social news.",
-    "website_url": "https://snn.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "students",
-      "agency"
-    ]
-  },
-  {
-    "title": "خبرگزاری هرانا HRA News",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Human Rights Activists News Agency (HRA), documenting human rights violations in Iran.",
-    "website_url": "https://www.hra-news.org/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
       "human-rights",
-      "iran"
+      "local",
+      "netherlands",
+      "politics",
+      "society"
     ]
   },
   {
-    "title": "دویچه وله فارسی DW Persian",
+    "title": "اخبار روز (Akhbar-Rooz)",
+    "category": "Politics",
+    "media_type": "News Website",
+    "country": "Germany",
+    "language": "Persian",
+    "description": "Left-leaning independent news and analysis site covering Iranian politics and labor movements.",
+    "website_url": "https://www.akhbar-rooz.com/",
+    "rss_url": "https://www.akhbar-rooz.com/feed/",
+    "tags": [
+      "analysis",
+      "economy",
+      "germany",
+      "opinion",
+      "politics"
+    ]
+  },
+  {
+    "title": "اعتماد آنلاین (Etemad Online)",
+    "category": "Society",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "The digital arm of Etemad newspaper, focusing on political analysis and social commentary.",
+    "website_url": "https://etemadonline.com/",
+    "rss_url": "https://etemadonline.com/fa/rss/allnews",
+    "tags": [
+      "analysis",
+      "iran",
+      "opinion",
+      "politics",
+      "society"
+    ]
+  },
+  {
+    "title": "اکوایران (EcoIran)",
+    "category": "Economy",
+    "media_type": "Video",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "The primary multimedia platform for economic news, market analysis, and financial interviews in Iran.",
+    "website_url": "https://ecoiran.com/",
+    "rss_url": "https://ecoiran.com/fa/rss/allnews",
+    "tags": [
+      "economy",
+      "finance",
+      "iran",
+      "markets",
+      "video"
+    ]
+  },
+  {
+    "title": "ایران اینترنشنال (Iran International)",
+    "category": "News",
+    "media_type": "TV Channel",
+    "country": "United Kingdom",
+    "language": "Persian",
+    "description": "Satellite TV and digital platform providing 24/7 news coverage for the Persian-speaking world.",
+    "website_url": "https://www.iranintl.com/",
+    "rss_url": "https://www.iranintl.com/rss/all",
+    "tags": [
+      "breaking",
+      "global",
+      "politics",
+      "united-kingdom",
+      "video"
+    ]
+  },
+  {
+    "title": "ایران‌وایر (IranWire)",
+    "category": "Society",
+    "media_type": "News Website",
+    "country": "Canada",
+    "language": "Persian",
+    "description": "Independent collaborative news site focusing on human rights and investigative journalism.",
+    "website_url": "https://iranwire.com/fa/",
+    "rss_url": "https://iranwire.com/fa/rss",
+    "tags": [
+      "canada",
+      "deep-dive",
+      "human-rights",
+      "opinion",
+      "society"
+    ]
+  },
+  {
+    "title": "ایندیپندنت فارسی (Independent Persian)",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "United Kingdom",
+    "language": "Persian",
+    "description": "The Persian edition of The Independent, covering global news, analysis, and culture.",
+    "website_url": "https://www.independentpersian.com/",
+    "rss_url": "https://www.independentpersian.com/rss",
+    "tags": [
+      "diplomacy",
+      "global",
+      "lifestyle",
+      "politics",
+      "united-kingdom"
+    ]
+  },
+  {
+    "title": "بی‌بی‌سی فارسی (BBC Persian)",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "United Kingdom",
+    "language": "Persian",
+    "description": "International broadcaster providing global news, analysis, and multimedia content in Persian.",
+    "website_url": "https://www.bbc.com/persian",
+    "rss_url": "https://www.bbc.com/persian/index.xml",
+    "tags": [
+      "breaking",
+      "economy",
+      "global",
+      "politics",
+      "united-kingdom"
+    ]
+  },
+  {
+    "title": "تابناک (Tabnak)",
+    "category": "Politics",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "High-traffic news site known for its commentary on economic policies and transparency.",
+    "website_url": "https://www.tabnak.ir/",
+    "rss_url": "https://www.tabnak.ir/fa/rss/allnews",
+    "tags": [
+      "analysis",
+      "economy",
+      "iran",
+      "politics",
+      "trending"
+    ]
+  },
+  {
+    "title": "تجارت‌نیوز (TejaratNews)",
+    "category": "Economy",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Digital media specializing in financial markets, stock exchanges, and economic analysis.",
+    "website_url": "https://tejaratnews.com/",
+    "rss_url": "https://tejaratnews.com/fa/rss/allnews",
+    "tags": [
+      "economy",
+      "finance",
+      "iran",
+      "markets",
+      "startups"
+    ]
+  },
+  {
+    "title": "ترکمن‌نیوز (TurkmensNews)",
+    "category": "Society",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "News and culture portal dedicated to the Turkmen community in Iran and the Caspian region.",
+    "website_url": "http://turkmensnews.com/",
+    "rss_url": "http://turkmensnews.com/fa/rss/allnews",
+    "tags": [
+      "arts",
+      "historical",
+      "iran",
+      "local",
+      "society"
+    ]
+  },
+  {
+    "title": "جهان نیوز (Jahan News)",
+    "category": "Politics",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Conservative news platform focusing on national security, governance, and traditional values.",
+    "website_url": "https://www.jahannews.com/",
+    "rss_url": "https://www.jahannews.com/fa/rss/allnews",
+    "tags": [
+      "diplomacy",
+      "governance",
+      "historical",
+      "iran",
+      "politics"
+    ]
+  },
+  {
+    "title": "جوان آنلاین (Javan Online)",
+    "category": "Politics",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Conservative outlet focusing on social affairs, defense, and the concerns of the youth within a traditional framework.",
+    "website_url": "https://www.javanonline.ir/",
+    "rss_url": "https://www.javanonline.ir/fa/rss/allnews",
+    "tags": [
+      "education",
+      "iran",
+      "policy",
+      "politics",
+      "society"
+    ]
+  },
+  {
+    "title": "حال وش (Haalvsh)",
+    "category": "Society",
+    "media_type": "Organization Portal",
+    "country": "Global",
+    "language": "Persian",
+    "description": "Focuses on human rights issues and news related to the Sistan and Baluchestan region.",
+    "website_url": "https://halavash.org/",
+    "rss_url": "https://halavash.org/feed/",
+    "tags": [
+      "global",
+      "human-rights",
+      "local",
+      "research",
+      "society"
+    ]
+  },
+  {
+    "title": "خبر آنلاین (Khabar Online)",
+    "category": "Politics",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "High-traffic news platform covering a wide range of topics including tech, politics, and sports.",
+    "website_url": "https://www.khabaronline.ir/",
+    "rss_url": "https://www.khabaronline.ir/fa/rss/allnews",
+    "tags": [
+      "economy",
+      "iran",
+      "politics",
+      "technology",
+      "trending"
+    ]
+  },
+  {
+    "title": "خبر فوری (Khabar Foori)",
+    "category": "News",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Digital platform specializing in rapid updates on breaking news, trending topics, and social events.",
+    "website_url": "https://www.khabarfoori.com/",
+    "rss_url": "https://www.khabarfoori.com/fa/rss/allnews",
+    "tags": [
+      "breaking",
+      "iran",
+      "society",
+      "sports",
+      "trending"
+    ]
+  },
+  {
+    "title": "خبرگزاری آنا (ANA)",
+    "category": "Technology",
+    "media_type": "News Agency",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Azad News Agency, specializing in higher education news, science, and technology.",
+    "website_url": "https://ana.ir/",
+    "rss_url": "https://ana.press/fa/rss/allnews",
+    "tags": [
+      "education",
+      "iran",
+      "research",
+      "science",
+      "technology"
+    ]
+  },
+  {
+    "title": "خبرگزاری ایسنا (ISNA)",
+    "category": "Society",
+    "media_type": "News Agency",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Iranian Students' News Agency covering a wide range of social, scientific, and political topics.",
+    "website_url": "https://www.isna.ir/",
+    "rss_url": "https://www.isna.ir/fa/rss",
+    "tags": [
+      "education",
+      "iran",
+      "politics",
+      "science",
+      "society"
+    ]
+  },
+  {
+    "title": "خبرگزاری ایلنا (ILNA)",
+    "category": "Economy",
+    "media_type": "News Agency",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "The Iranian Labour News Agency focuses on labor rights, trade unions, and economic policy.",
+    "website_url": "https://www.ilna.ir/",
+    "rss_url": "https://www.ilna.ir/fa/rss",
+    "tags": [
+      "economy",
+      "governance",
+      "iran",
+      "policy",
+      "politics"
+    ]
+  },
+  {
+    "title": "خبرگزاری ایکنا (IQNA)",
+    "category": "Society",
+    "media_type": "News Agency",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "International Quran News Agency focusing on religious affairs, culture, and Islamic philosophy.",
+    "website_url": "https://iqna.ir/",
+    "rss_url": "https://iqna.ir/fa/rss/allnews",
+    "tags": [
+      "arts",
+      "historical",
+      "iran",
+      "religion",
+      "society"
+    ]
+  },
+  {
+    "title": "خبرگزاری تسنیم (Tasnim News)",
+    "category": "Politics",
+    "media_type": "News Agency",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "News agency providing updates on Islamic world issues, defense, and governance.",
+    "website_url": "https://www.tasnimnews.com/",
+    "rss_url": "https://www.tasnimnews.com/fa/rss/allnews",
+    "tags": [
+      "diplomacy",
+      "global",
+      "governance",
+      "iran",
+      "politics"
+    ]
+  },
+  {
+    "title": "خبرگزاری دانشجو (SNN)",
+    "category": "Politics",
+    "media_type": "News Agency",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Student News Network focusing on revolutionary ideals, campus news, and political policy.",
+    "website_url": "https://snn.ir/",
+    "rss_url": "https://snn.ir/fa/rss/allnews",
+    "tags": [
+      "analysis",
+      "education",
+      "governance",
+      "iran",
+      "politics"
+    ]
+  },
+  {
+    "title": "خبرگزاری فارس (Fars News)",
+    "category": "Politics",
+    "media_type": "News Agency",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Major news agency in Iran, providing extensive coverage on security, defense, and regional politics.",
+    "website_url": "https://www.farsnews.ir/",
+    "rss_url": "https://www.farsnews.ir/fa/rss",
+    "tags": [
+      "breaking",
+      "diplomacy",
+      "global",
+      "iran",
+      "politics"
+    ]
+  },
+  {
+    "title": "خبرگزاری مهر (Mehr News)",
+    "category": "Society",
+    "media_type": "News Agency",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Comprehensive news agency covering culture, science, technology, and international news.",
+    "website_url": "https://www.mehrnews.com/",
+    "rss_url": "https://www.mehrnews.com/rss",
+    "tags": [
+      "arts",
+      "global",
+      "iran",
+      "society",
+      "technology"
+    ]
+  },
+  {
+    "title": "دویچه وله فارسی (DW Persian)",
     "category": "News",
     "media_type": "News Website",
     "country": "Germany",
     "language": "Persian",
-    "description": "Deutsche Welle Persian, German public international broadcaster offering news, analysis, and reports in Persian.",
+    "description": "German public international broadcaster offering news, analysis, and reports in Persian.",
     "website_url": "https://www.dw.com/fa-ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://rss.dw.com/xml/rss-fa-all",
     "tags": [
-      "news",
-      "iran",
-      "international",
-      "dw"
+      "breaking",
+      "diplomacy",
+      "germany",
+      "global",
+      "politics"
     ]
   },
   {
-    "title": "دیجیاتو Digiato",
+    "title": "دیجیاتو (Digiato)",
     "category": "Technology",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Digiato, a prominent Persian technology and science news site with reviews, news, and analysis.",
+    "description": "Leading technology news website covering gadgets, software, startups, and digital lifestyle.",
     "website_url": "https://digiato.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://digiato.com/feed",
     "tags": [
-      "technology",
       "gadgets",
-      "science",
-      "reviews"
+      "iran",
+      "software",
+      "startups",
+      "technology"
     ]
   },
   {
-    "title": "رادیو رنگین‌کمان Radio Rangin Kaman",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
+    "title": "رادیو رنگین‌کمان (Radio Ranginkaman)",
+    "category": "Society",
+    "media_type": "Podcast",
+    "country": "Global",
     "language": "Persian",
-    "description": "Radio Rangin Kaman, a Persian LGBTQ+ focused radio and news platform advocating for queer rights in Iran.",
+    "description": "Broadcasting platform for the Iranian LGBTQ+ community, covering identity and rights.",
     "website_url": "https://radioranginkaman.org/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://radioranginkaman.org/feed/",
     "tags": [
-      "news",
-      "lgbtq",
+      "global",
       "human-rights",
-      "iran"
+      "lifestyle",
+      "podcast",
+      "society"
     ]
   },
   {
-    "title": "رادیو زمانه Radio Zamaneh",
-    "category": "News",
+    "title": "رادیو زمانه (Radio Zamaneh)",
+    "category": "Society",
     "media_type": "News Website",
     "country": "Netherlands",
     "language": "Persian",
-    "description": "Radio Zamaneh, an independent Persian radio and news service offering reports, analysis, and discussions.",
+    "description": "Independent media focusing on civil society, environment, and progressive politics in Iran.",
     "website_url": "https://www.radiozamaneh.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://www.radiozamaneh.com/feed/",
     "tags": [
-      "news",
-      "iran",
-      "radio",
-      "independent"
+      "arts",
+      "environment",
+      "netherlands",
+      "opinion",
+      "society"
     ]
   },
   {
-    "title": "رادیو فردا",
+    "title": "رادیو فردا (Radio Farda)",
     "category": "News",
-    "media_type": "News Website",
-    "country": "United States",
+    "media_type": "Podcast",
+    "country": "Czech Republic",
     "language": "Persian",
-    "description": "Radio Farda, U.S.-funded Persian radio and news service focusing on Iran, democracy, and human rights.",
+    "description": "The Persian service of RFE/RL, offering independent news and cultural programming.",
     "website_url": "https://www.radiofarda.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://www.radiofarda.com/rss",
     "tags": [
-      "news",
-      "iran",
-      "radio",
-      "international"
+      "breaking",
+      "czech-republic",
+      "global",
+      "podcast",
+      "politics"
     ]
   },
   {
-    "title": "رجا نیوز",
-    "category": "News",
+    "title": "رجانیوز (Raja News)",
+    "category": "Politics",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Raja News, a news and analysis site focused on Iranian politics and society.",
-    "website_url": "https://rajanews.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "description": "A hardline conservative news site providing commentary on revolutionary policy and defense.",
+    "website_url": "https://www.rajanews.com/",
+    "rss_url": "https://www.rajanews.com/fa/rss/allnews",
     "tags": [
-      "news",
+      "breaking",
+      "diplomacy",
+      "governance",
       "iran",
       "politics"
     ]
   },
   {
-    "title": "رویداد۲۴",
-    "category": "News",
-    "media_type": "News Website",
+    "title": "روزنامه شرق (Shargh Daily)",
+    "category": "Society",
+    "media_type": "Newspaper",
     "country": "Iran",
     "language": "Persian",
-    "description": "Roozdaad24 / Rouydad24, an analytical news site focusing on politics and current affairs.",
-    "website_url": "https://rouydad24.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "description": "One of Iran's most influential reformist newspapers, focusing on deep-dive reporting.",
+    "website_url": "https://www.sharghdaily.com/",
+    "rss_url": "https://www.sharghdaily.com/fa/rss/allnews",
     "tags": [
-      "news",
+      "arts",
+      "deep-dive",
       "iran",
-      "politics",
-      "analysis"
+      "opinion",
+      "society"
     ]
   },
   {
-    "title": "زومیت Zoomit",
+    "title": "رویداد۲۴ (Rouydad24)",
+    "category": "Politics",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Digital platform focused on political investigative reporting and domestic economic issues.",
+    "website_url": "https://www.rouydad24.ir/",
+    "rss_url": "https://www.rouydad24.ir/fa/rss/allnews",
+    "tags": [
+      "analysis",
+      "breaking",
+      "economy",
+      "iran",
+      "politics"
+    ]
+  },
+  {
+    "title": "زومیت (Zoomit)",
     "category": "Technology",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Zoomit, one of Iran's most popular technology news websites covering gadgets, science, and digital trends.",
+    "description": "Premier technology media in Iran covering gadgets, AI, software reviews, and hardware specs.",
     "website_url": "https://www.zoomit.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://www.zoomit.ir/feed/",
     "tags": [
-      "technology",
+      "ai",
       "gadgets",
-      "science",
-      "iran"
-    ]
-  },
-  {
-    "title": "زیتون Zeitoons",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Zeitoons, a Persian news and analytical site featuring articles, reports, and critical perspectives on Iran.",
-    "website_url": "https://www.zeitoons.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
+      "hardware",
       "iran",
-      "analysis"
+      "technology"
     ]
   },
   {
-    "title": "زیست آنلاین Zist Online",
-    "category": "News",
+    "title": "زیتون (Zeitoons)",
+    "category": "Politics",
+    "media_type": "News Website",
+    "country": "Global",
+    "language": "Persian",
+    "description": "Critical news and commentary site focusing on democratic reform and intellectual discourse.",
+    "website_url": "https://zeitoons.com/",
+    "rss_url": "https://zeitoons.com/feed/",
+    "tags": [
+      "analysis",
+      "global",
+      "governance",
+      "opinion",
+      "politics"
+    ]
+  },
+  {
+    "title": "زیست آنلاین (Zist Online)",
+    "category": "Science",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Zist Online, an environmental and sustainability news platform covering ecology, wildlife, and green issues in Iran.",
-    "website_url": "https://www.zistonline.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "description": "Specialized platform focusing on environmental news, sustainability, and renewable energy.",
+    "website_url": "https://zistonline.com/",
+    "rss_url": "https://zistonline.com/fa/rss/allnews",
     "tags": [
       "environment",
-      "sustainability",
-      "ecology",
-      "iran"
+      "iran",
+      "policy",
+      "research",
+      "science"
     ]
   },
   {
-    "title": "سازمان حقوق بشر ایران Iran Human Rights",
-    "category": "News",
-    "media_type": "News Website",
+    "title": "سازمان حقوق بشر ایران (Iran Human Rights)",
+    "category": "Society",
+    "media_type": "Organization Portal",
     "country": "Norway",
     "language": "Persian",
-    "description": "Iran Human Rights (IHR), a Norway-based organization reporting on human rights and executions in Iran.",
+    "description": "NGO reporting on the death penalty, executions, and civil rights in Iran.",
     "website_url": "https://iranhr.net/fa/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://iranhr.net/fa/feed/",
     "tags": [
-      "news",
       "human-rights",
-      "iran"
+      "norway",
+      "policy",
+      "research",
+      "society"
     ]
   },
   {
-    "title": "سینا پرس",
-    "category": "News",
+    "title": "سایت خبری الف (Alef)",
+    "category": "Economy",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Sina Press, a Persian news site providing political, economic, and current affairs coverage.",
+    "description": "Analytical platform focusing on public policy, economic transparency, and legislative reviews.",
+    "website_url": "https://www.alef.ir/",
+    "rss_url": "https://www.alef.ir/fa/rss/allnews",
+    "tags": [
+      "analysis",
+      "economy",
+      "governance",
+      "iran",
+      "policy"
+    ]
+  },
+  {
+    "title": "سیناپرس (Sinapress)",
+    "category": "Science",
+    "media_type": "News Agency",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Science news agency covering health, technology, physics, and medical research in Iran.",
     "website_url": "https://sinapress.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://sinapress.ir/fa/rss/allnews",
     "tags": [
-      "news",
       "iran",
-      "politics"
+      "medicine",
+      "research",
+      "science",
+      "technology"
     ]
   },
   {
-    "title": "شرق",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
+    "title": "شش‌رنگ (6Rang)",
+    "category": "Society",
+    "media_type": "Organization Portal",
+    "country": "Germany",
     "language": "Persian",
-    "description": "Shargh Daily, a prominent Persian newspaper site covering politics, culture, and society.",
-    "website_url": "https://sharghdaily.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "description": "Iranian Lesbian and Transgender Network focusing on human rights and sexual freedom.",
+    "website_url": "https://6rang.org/",
+    "rss_url": "https://6rang.org/feed/",
     "tags": [
-      "news",
-      "iran",
-      "politics"
+      "analysis",
+      "global",
+      "human-rights",
+      "policy",
+      "society"
     ]
   },
   {
-    "title": "شفقنا",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
+    "title": "شفقنا (Shafaqna)",
+    "category": "Society",
+    "media_type": "News Agency",
+    "country": "Global",
     "language": "Persian",
-    "description": "Shafaqna, International Shia News Agency covering Shia-related and general news from Iran and worldwide.",
-    "website_url": "https://shafaqna.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "description": "International Shia news agency covering religious news and Islamic diplomacy.",
+    "website_url": "https://fa.shafaqna.com/",
+    "rss_url": "https://fa.shafaqna.com/rss",
     "tags": [
-      "news",
-      "iran",
-      "shia",
-      "international"
+      "diplomacy",
+      "global",
+      "religion",
+      "society"
     ]
   },
   {
-    "title": "صدای آمریکا فارسی VOA Farsi",
+    "title": "صدای آمریکا (VOA Persian)",
     "category": "News",
     "media_type": "News Website",
-    "country": "United States",
+    "country": "USA",
     "language": "Persian",
-    "description": "Voice of America Persian service, providing U.S.-funded news, analysis, and reports on Iran and international affairs.",
+    "description": "Voice of America's Persian service, delivering US and international news to Iran.",
     "website_url": "https://ir.voanews.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://ir.voanews.com/rss",
     "tags": [
-      "news",
-      "iran",
-      "international",
-      "voa"
-    ]
-  },
-  {
-    "title": "عصر ایران",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Asr Iran, a popular news site with articles on politics, economy, and daily events in Iran.",
-    "website_url": "https://asriran.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "politics"
-    ]
-  },
-  {
-    "title": "فارس نیوز",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Fars News Agency, a major Iranian news agency covering politics, international, and domestic news.",
-    "website_url": "https://farsnews.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
+      "diplomacy",
+      "global",
       "politics",
-      "agency"
+      "usa",
+      "video"
     ]
   },
   {
-    "title": "فرارو",
-    "category": "News",
+    "title": "عصر ایران (Asr Iran)",
+    "category": "Politics",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Fararu, a popular Persian news website focusing on daily news, politics, society, and analysis.",
+    "description": "A digital news portal covering a wide spectrum of topics including politics, sports, and lifestyle.",
+    "website_url": "https://www.asriran.com/",
+    "rss_url": "https://www.asriran.com/fa/rss/allnews",
+    "tags": [
+      "analysis",
+      "iran",
+      "lifestyle",
+      "politics",
+      "trending"
+    ]
+  },
+  {
+    "title": "فرارو (Fararu)",
+    "category": "Society",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "An analytical news platform focusing on political, economic, and cultural developments with a critical lens.",
     "website_url": "https://fararu.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://fararu.com/fa/rss/allnews",
     "tags": [
-      "news",
+      "analysis",
       "iran",
-      "politics"
-    ]
-  },
-  {
-    "title": "قشقایی آنلاین Qashqai Online",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Qashqai Online, a news and cultural platform dedicated to the Qashqai Turkic tribal community in Iran.",
-    "website_url": "https://qashqaionline.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "qashqai",
-      "cultural",
-      "iran"
-    ]
-  },
-  {
-    "title": "مازندنومه Mazandnume",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Mazandnume, a Mazandarani/Persian news and cultural site focused on Mazandaran province.",
-    "website_url": "https://www.mazandnume.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "regional",
-      "mazandaran",
-      "iran"
-    ]
-  },
-  {
-    "title": "مرکز حقوق بشر ایران Persian Iran Human Rights",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Center for Human Rights in Iran, providing Persian coverage of human rights issues.",
-    "website_url": "https://persian.iranhumanrights.org/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "human-rights",
-      "iran"
-    ]
-  },
-  {
-    "title": "مشرق نیوز",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Mashregh News, covering news, politics, and current events from an Iranian perspective.",
-    "website_url": "https://mashreghnews.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
-      "politics"
-    ]
-  },
-  {
-    "title": "مهر",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Mehr News Agency, a leading Iranian news source on politics, economy, and culture.",
-    "website_url": "https://mehrnews.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "iran",
+      "lifestyle",
       "politics",
-      "agency"
+      "society"
     ]
   },
   {
-    "title": "هنگاو Hengaw",
-    "category": "News",
+    "title": "قشقایی آنلاین (Qashqai Online)",
+    "category": "Society",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Hengaw, a human rights organization focusing on Kurdish regions of Iran.",
+    "description": "Cultural and social news portal dedicated to the Qashqai nomadic community and heritage.",
+    "website_url": "http://qashqaionline.ir/",
+    "rss_url": "http://qashqaionline.ir/fa/rss/allnews",
+    "tags": [
+      "arts",
+      "historical",
+      "iran",
+      "local",
+      "society"
+    ]
+  },
+  {
+    "title": "مازندنومه (Mazandnume)",
+    "category": "Society",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Local news and cultural portal specializing in the Mazandaran province and Caspian region.",
+    "website_url": "http://www.mazandnume.com/",
+    "rss_url": "http://www.mazandnume.com/rss",
+    "tags": [
+      "arts",
+      "historical",
+      "iran",
+      "local",
+      "society"
+    ]
+  },
+  {
+    "title": "مشرق نیوز (Mashregh News)",
+    "category": "Politics",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Analytical news site focusing on geopolitical security, defense, and international policy.",
+    "website_url": "https://www.mashreghnews.ir/",
+    "rss_url": "https://www.mashreghnews.ir/fa/rss/allnews",
+    "tags": [
+      "analysis",
+      "governance",
+      "historical",
+      "iran",
+      "politics"
+    ]
+  },
+  {
+    "title": "هرانا (HRANA)",
+    "category": "Society",
+    "media_type": "News Agency",
+    "country": "USA",
+    "language": "Persian",
+    "description": "Human Rights Activists News Agency providing documentation on rights violations in Iran.",
+    "website_url": "https://www.hra-news.org/",
+    "rss_url": "https://www.hra-news.org/feed/",
+    "tags": [
+      "documentation",
+      "human-rights",
+      "research",
+      "society",
+      "usa"
+    ]
+  },
+  {
+    "title": "هه‌نگاو (Hengaw)",
+    "category": "Society",
+    "media_type": "Organization Portal",
+    "country": "Norway",
+    "language": "Kurdish",
+    "description": "Hengaw Organization for Human Rights monitors violations in Kurdish regions of Iran.",
     "website_url": "https://hengaw.net/fa",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://hengaw.net/fa/feed",
     "tags": [
-      "news",
+      "analysis",
       "human-rights",
-      "kurdish"
+      "local",
+      "norway",
+      "politics"
     ]
   },
   {
-    "title": "پارسینه",
-    "category": "News",
+    "title": "پارسینه (Parsine)",
+    "category": "Society",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Parsine, a news and analytical site covering Iranian politics, economy, and current events.",
-    "website_url": "https://parsine.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "description": "Digital platform covering social trends, entertainment news, and political rumors.",
+    "website_url": "https://www.parsine.com/",
+    "rss_url": "https://www.parsine.com/fa/rss/allnews",
     "tags": [
-      "news",
+      "entertainment",
       "iran",
-      "politics",
-      "analysis"
+      "lifestyle",
+      "society",
+      "trending"
     ]
   },
   {
-    "title": "پایگاه خبری جماران",
-    "category": "News",
+    "title": "پایگاه خبری انتخاب (Entekhab)",
+    "category": "Politics",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Jamaran News, a Persian news site covering politics, society, and current Iranian affairs.",
-    "website_url": "https://jamaran.news/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "description": "Prominent news outlet covering Iranian domestic politics, international relations, and social trends.",
+    "website_url": "https://www.entekhab.ir/",
+    "rss_url": "https://www.entekhab.ir/fa/rss/allnews",
     "tags": [
-      "news",
+      "analysis",
+      "breaking",
+      "diplomacy",
       "iran",
       "politics"
     ]
   },
   {
-    "title": "پیوست Peivast",
+    "title": "پایگاه خبری جماران (Jamaran)",
+    "category": "Politics",
+    "media_type": "News Website",
+    "country": "Iran",
+    "language": "Persian",
+    "description": "Analytical portal focusing on political and social affairs, often centered on revolutionary heritage.",
+    "website_url": "https://www.jamaran.news/",
+    "rss_url": "https://www.jamaran.news/fa/rss/allnews",
+    "tags": [
+      "governance",
+      "historical",
+      "iran",
+      "politics",
+      "society"
+    ]
+  },
+  {
+    "title": "پیوست (Peivast)",
     "category": "Technology",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Peivast, a Persian news site focused on information technology, startups, and digital economy.",
+    "description": "Specialized news and analysis on digital economy, IT policy, and connectivity in Iran.",
     "website_url": "https://peivast.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://peivast.com/feed/",
     "tags": [
-      "technology",
-      "it",
-      "startup",
-      "iran"
-    ]
-  },
-  {
-    "title": "کردستان ۲۴ Kurdistan 24",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iraq",
-    "language": "Persian",
-    "description": "Kurdistan 24 Persian, Kurdish news service covering regional and Iranian Kurdish affairs.",
-    "website_url": "https://www.kurdistan24.net/fa",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "kurdish",
-      "regional"
-    ]
-  },
-  {
-    "title": "کردپا Kurdpa",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Kurdpa, a Kurdish-Persian news agency focusing on Kurdish issues and human rights in Iran.",
-    "website_url": "https://kurdpa.net/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
-      "kurdish",
-      "human-rights",
-      "iran"
-    ]
-  },
-  {
-    "title": "کلمه Kaleme",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Kaleme, a Persian news website associated with the Green Movement, covering politics and current events.",
-    "website_url": "https://www.kaleme.com/",
-    "website_text": "Visit Website",
-    "rss_url": "",
-    "tags": [
-      "news",
+      "economy",
+      "governance",
       "iran",
-      "green-movement"
+      "software",
+      "technology"
     ]
   },
   {
-    "title": "کمپین بلوچ Baloch Campaign",
-    "category": "News",
-    "media_type": "News Website",
-    "country": "Iran",
-    "language": "Persian",
-    "description": "Baloch Campaign, a platform advocating for Baloch rights and documenting issues in Iran.",
-    "website_url": "https://balochcampaign.us/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "title": "کردپا (Kurdpa)",
+    "category": "Society",
+    "media_type": "News Agency",
+    "country": "Germany",
+    "language": "Kurdish",
+    "description": "Kurdistan Press Agency focusing on human rights and social news in Kurdish areas.",
+    "website_url": "https://kurdpa.net/fa",
+    "rss_url": "https://kurdpa.net/fa/feed",
     "tags": [
-      "news",
-      "baloch",
+      "germany",
+      "historical",
       "human-rights",
-      "advocacy"
+      "local",
+      "society"
     ]
   },
   {
-    "title": "کیهان لندن Kayhan London",
-    "category": "News",
+    "title": "کلمه (Kaleme)",
+    "category": "Politics",
+    "media_type": "News Website",
+    "country": "Global",
+    "language": "Persian",
+    "description": "News platform associated with the Iranian Green Movement and democratic reform efforts.",
+    "website_url": "https://www.kaleme.com/",
+    "rss_url": "https://www.kaleme.com/feed/",
+    "tags": [
+      "analysis",
+      "global",
+      "human-rights",
+      "opinion",
+      "politics"
+    ]
+  },
+  {
+    "title": "کمپین حقوق بشر ایران (CHRI)",
+    "category": "Society",
+    "media_type": "Organization Portal",
+    "country": "USA",
+    "language": "Persian",
+    "description": "Center for Human Rights in Iran providing legal analysis and reports on civil liberties.",
+    "website_url": "https://persian.iranhumanrights.org/",
+    "rss_url": "https://persian.iranhumanrights.org/feed/",
+    "tags": [
+      "analysis",
+      "human-rights",
+      "iran",
+      "policy",
+      "society"
+    ]
+  },
+  {
+    "title": "کمپین فعالین بلوچ (Baloch Campaign)",
+    "category": "Politics",
+    "media_type": "Organization Portal",
+    "country": "USA",
+    "language": "Persian",
+    "description": "Human rights organization monitoring news and developments in the Sistan and Baluchestan region.",
+    "website_url": "https://balochcampaign.us/",
+    "rss_url": "https://balochcampaign.us/feed/",
+    "tags": [
+      "human-rights",
+      "local",
+      "politics",
+      "society",
+      "usa"
+    ]
+  },
+  {
+    "title": "کوردستان ۲۴ (Kurdistan 24)",
+    "category": "Politics",
+    "media_type": "TV Channel",
+    "country": "Iraq",
+    "language": "Kurdish",
+    "description": "News broadcaster covering the Kurdistan region, Iraq, and broader Middle East geopolitical issues.",
+    "website_url": "https://www.kurdistan24.net/fa",
+    "rss_url": "https://www.kurdistan24.net/fa/rss",
+    "tags": [
+      "diplomacy",
+      "global",
+      "iraq",
+      "politics",
+      "video"
+    ]
+  },
+  {
+    "title": "کیهان لندن (Kayhan London)",
+    "category": "Politics",
     "media_type": "News Website",
     "country": "United Kingdom",
     "language": "Persian",
-    "description": "Kayhan London, an opposition Persian news site with critical coverage of Iranian politics and current affairs.",
-    "website_url": "https://kayhan.london/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "description": "Independent news outlet providing political analysis and cultural content from an exiled perspective.",
+    "website_url": "https://kayhan.london/fa/",
+    "rss_url": "https://kayhan.london/fa/feed/",
     "tags": [
-      "news",
-      "iran",
-      "opposition"
+      "analysis",
+      "historical",
+      "opinion",
+      "politics",
+      "united-kingdom"
     ]
   },
   {
-    "title": "گیل خبر Gil Khabar",
-    "category": "News",
+    "title": "گوناز تی‌وی (Gunaz TV)",
+    "category": "Politics",
+    "media_type": "TV Channel",
+    "country": "USA",
+    "language": "English",
+    "description": "Broadcaster focusing on news and culture related to the Azerbaijani community in Iran.",
+    "website_url": "https://gunaz.tv/en",
+    "rss_url": "https://www.gunaz.tv/en/rss",
+    "tags": [
+      "global",
+      "politics",
+      "society",
+      "usa",
+      "video"
+    ]
+  },
+  {
+    "title": "گوناز تی‌وی (Gunaz TV)",
+    "category": "Politics",
+    "media_type": "TV Channel",
+    "country": "USA",
+    "language": "Persian",
+    "description": "Broadcaster focusing on news and culture related to the Azerbaijani community in Iran.",
+    "website_url": "https://gunaz.tv/fa",
+    "rss_url": "https://www.gunaz.tv/fa/rss",
+    "tags": [
+      "global",
+      "politics",
+      "society",
+      "usa",
+      "video"
+    ]
+  },
+  {
+    "title": "گیل خبر (GilKhabar)",
+    "category": "Society",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Gil Khabar, a regional news site covering Gilan province, local news, politics, and society.",
+    "description": "Regional news outlet focusing on northern Iran, specifically the Gilan province.",
     "website_url": "https://gilkhabar.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://gilkhabar.ir/fa/rss/allnews",
     "tags": [
-      "news",
-      "regional",
-      "gilan",
-      "iran"
+      "environment",
+      "governance",
+      "iran",
+      "local",
+      "society"
     ]
   },
   {
-    "title": "یافته نیوز Yafte News",
-    "category": "News",
+    "title": "یافته (Yafte News)",
+    "category": "Society",
     "media_type": "News Website",
     "country": "Iran",
     "language": "Persian",
-    "description": "Yafte News, a news website covering Lorestan province and general Iranian affairs.",
+    "description": "Regional news outlet for the Lorestan province, covering social and urban developments.",
     "website_url": "https://yaftenews.ir/",
-    "website_text": "Visit Website",
-    "rss_url": "",
+    "rss_url": "https://yaftenews.ir/fa/rss/allnews",
     "tags": [
-      "news",
-      "regional",
-      "lorestan",
-      "iran"
+      "breaking",
+      "environment",
+      "iran",
+      "local",
+      "society"
     ]
   }
 ]

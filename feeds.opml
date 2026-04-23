@@ -1,8 +1,80 @@
 <?xml version="1.0" ?>
 <opml version="1.0">
-  <head>
-    <title>Awesome Media Feeds</title>
-    <dateCreated>1776953936.0775843</dateCreated>
-  </head>
-  <body/>
+  <body>
+    <outline text="Politics" title="Politics">
+      <outline text="آفتاب نیوز (Aftab News)" title="آفتاب نیوز (Aftab News)" type="rss" htmlUrl="https://aftabnews.ir/" xmlUrl="https://aftabnews.ir/fa/rss/allnews"/>
+      <outline text="احوازنا (Ahwazna)" title="احوازنا (Ahwazna)" type="rss" htmlUrl="https://ahwazna.net/" xmlUrl="https://ahwazna.net/rss"/>
+      <outline text="اخبار روز (Akhbar-Rooz)" title="اخبار روز (Akhbar-Rooz)" type="rss" htmlUrl="https://www.akhbar-rooz.com/" xmlUrl="https://www.akhbar-rooz.com/feed/"/>
+      <outline text="تابناک (Tabnak)" title="تابناک (Tabnak)" type="rss" htmlUrl="https://www.tabnak.ir/" xmlUrl="https://www.tabnak.ir/fa/rss/allnews"/>
+      <outline text="جهان نیوز (Jahan News)" title="جهان نیوز (Jahan News)" type="rss" htmlUrl="https://www.jahannews.com/" xmlUrl="https://www.jahannews.com/fa/rss/allnews"/>
+      <outline text="جوان آنلاین (Javan Online)" title="جوان آنلاین (Javan Online)" type="rss" htmlUrl="https://www.javanonline.ir/" xmlUrl="https://www.javanonline.ir/fa/rss/allnews"/>
+      <outline text="خبر آنلاین (Khabar Online)" title="خبر آنلاین (Khabar Online)" type="rss" htmlUrl="https://www.khabaronline.ir/" xmlUrl="https://www.khabaronline.ir/fa/rss/allnews"/>
+      <outline text="خبرگزاری تسنیم (Tasnim News)" title="خبرگزاری تسنیم (Tasnim News)" type="rss" htmlUrl="https://www.tasnimnews.com/" xmlUrl="https://www.tasnimnews.com/fa/rss/allnews"/>
+      <outline text="خبرگزاری دانشجو (SNN)" title="خبرگزاری دانشجو (SNN)" type="rss" htmlUrl="https://snn.ir/" xmlUrl="https://snn.ir/fa/rss/allnews"/>
+      <outline text="خبرگزاری فارس (Fars News)" title="خبرگزاری فارس (Fars News)" type="rss" htmlUrl="https://www.farsnews.ir/" xmlUrl="https://www.farsnews.ir/fa/rss"/>
+      <outline text="رجانیوز (Raja News)" title="رجانیوز (Raja News)" type="rss" htmlUrl="https://www.rajanews.com/" xmlUrl="https://www.rajanews.com/fa/rss/allnews"/>
+      <outline text="رویداد۲۴ (Rouydad24)" title="رویداد۲۴ (Rouydad24)" type="rss" htmlUrl="https://www.rouydad24.ir/" xmlUrl="https://www.rouydad24.ir/fa/rss/allnews"/>
+      <outline text="زیتون (Zeitoons)" title="زیتون (Zeitoons)" type="rss" htmlUrl="https://zeitoons.com/" xmlUrl="https://zeitoons.com/feed/"/>
+      <outline text="عصر ایران (Asr Iran)" title="عصر ایران (Asr Iran)" type="rss" htmlUrl="https://www.asriran.com/" xmlUrl="https://www.asriran.com/fa/rss/allnews"/>
+      <outline text="مشرق نیوز (Mashregh News)" title="مشرق نیوز (Mashregh News)" type="rss" htmlUrl="https://www.mashreghnews.ir/" xmlUrl="https://www.mashreghnews.ir/fa/rss/allnews"/>
+      <outline text="پایگاه خبری انتخاب (Entekhab)" title="پایگاه خبری انتخاب (Entekhab)" type="rss" htmlUrl="https://www.entekhab.ir/" xmlUrl="https://www.entekhab.ir/fa/rss/allnews"/>
+      <outline text="پایگاه خبری جماران (Jamaran)" title="پایگاه خبری جماران (Jamaran)" type="rss" htmlUrl="https://www.jamaran.news/" xmlUrl="https://www.jamaran.news/fa/rss/allnews"/>
+      <outline text="کلمه (Kaleme)" title="کلمه (Kaleme)" type="rss" htmlUrl="https://www.kaleme.com/" xmlUrl="https://www.kaleme.com/feed/"/>
+      <outline text="کمپین فعالین بلوچ (Baloch Campaign)" title="کمپین فعالین بلوچ (Baloch Campaign)" type="rss" htmlUrl="https://balochcampaign.us/" xmlUrl="https://balochcampaign.us/feed/"/>
+      <outline text="کوردستان ۲۴ (Kurdistan 24)" title="کوردستان ۲۴ (Kurdistan 24)" type="rss" htmlUrl="https://www.kurdistan24.net/fa" xmlUrl="https://www.kurdistan24.net/fa/rss"/>
+      <outline text="کیهان لندن (Kayhan London)" title="کیهان لندن (Kayhan London)" type="rss" htmlUrl="https://kayhan.london/fa/" xmlUrl="https://kayhan.london/fa/feed/"/>
+      <outline text="گوناز تی‌وی (Gunaz TV)" title="گوناز تی‌وی (Gunaz TV)" type="rss" htmlUrl="https://gunaz.tv/en" xmlUrl="https://www.gunaz.tv/en/rss"/>
+      <outline text="گوناز تی‌وی (Gunaz TV)" title="گوناز تی‌وی (Gunaz TV)" type="rss" htmlUrl="https://gunaz.tv/fa" xmlUrl="https://www.gunaz.tv/fa/rss"/>
+    </outline>
+    <outline text="Society" title="Society">
+      <outline text="اعتماد آنلاین (Etemad Online)" title="اعتماد آنلاین (Etemad Online)" type="rss" htmlUrl="https://etemadonline.com/" xmlUrl="https://etemadonline.com/fa/rss/allnews"/>
+      <outline text="ایران‌وایر (IranWire)" title="ایران‌وایر (IranWire)" type="rss" htmlUrl="https://iranwire.com/fa/" xmlUrl="https://iranwire.com/fa/rss"/>
+      <outline text="ترکمن‌نیوز (TurkmensNews)" title="ترکمن‌نیوز (TurkmensNews)" type="rss" htmlUrl="http://turkmensnews.com/" xmlUrl="http://turkmensnews.com/fa/rss/allnews"/>
+      <outline text="حال وش (Haalvsh)" title="حال وش (Haalvsh)" type="rss" htmlUrl="https://halavash.org/" xmlUrl="https://halavash.org/feed/"/>
+      <outline text="خبرگزاری ایسنا (ISNA)" title="خبرگزاری ایسنا (ISNA)" type="rss" htmlUrl="https://www.isna.ir/" xmlUrl="https://www.isna.ir/fa/rss"/>
+      <outline text="خبرگزاری ایکنا (IQNA)" title="خبرگزاری ایکنا (IQNA)" type="rss" htmlUrl="https://iqna.ir/" xmlUrl="https://iqna.ir/fa/rss/allnews"/>
+      <outline text="خبرگزاری مهر (Mehr News)" title="خبرگزاری مهر (Mehr News)" type="rss" htmlUrl="https://www.mehrnews.com/" xmlUrl="https://www.mehrnews.com/rss"/>
+      <outline text="رادیو رنگین‌کمان (Radio Ranginkaman)" title="رادیو رنگین‌کمان (Radio Ranginkaman)" type="rss" htmlUrl="https://radioranginkaman.org/" xmlUrl="https://radioranginkaman.org/feed/"/>
+      <outline text="رادیو زمانه (Radio Zamaneh)" title="رادیو زمانه (Radio Zamaneh)" type="rss" htmlUrl="https://www.radiozamaneh.com/" xmlUrl="https://www.radiozamaneh.com/feed/"/>
+      <outline text="روزنامه شرق (Shargh Daily)" title="روزنامه شرق (Shargh Daily)" type="rss" htmlUrl="https://www.sharghdaily.com/" xmlUrl="https://www.sharghdaily.com/fa/rss/allnews"/>
+      <outline text="سازمان حقوق بشر ایران (Iran Human Rights)" title="سازمان حقوق بشر ایران (Iran Human Rights)" type="rss" htmlUrl="https://iranhr.net/fa/" xmlUrl="https://iranhr.net/fa/feed/"/>
+      <outline text="شش‌رنگ (6Rang)" title="شش‌رنگ (6Rang)" type="rss" htmlUrl="https://6rang.org/" xmlUrl="https://6rang.org/feed/"/>
+      <outline text="شفقنا (Shafaqna)" title="شفقنا (Shafaqna)" type="rss" htmlUrl="https://fa.shafaqna.com/" xmlUrl="https://fa.shafaqna.com/rss"/>
+      <outline text="فرارو (Fararu)" title="فرارو (Fararu)" type="rss" htmlUrl="https://fararu.com/" xmlUrl="https://fararu.com/fa/rss/allnews"/>
+      <outline text="قشقایی آنلاین (Qashqai Online)" title="قشقایی آنلاین (Qashqai Online)" type="rss" htmlUrl="http://qashqaionline.ir/" xmlUrl="http://qashqaionline.ir/fa/rss/allnews"/>
+      <outline text="مازندنومه (Mazandnume)" title="مازندنومه (Mazandnume)" type="rss" htmlUrl="http://www.mazandnume.com/" xmlUrl="http://www.mazandnume.com/rss"/>
+      <outline text="هرانا (HRANA)" title="هرانا (HRANA)" type="rss" htmlUrl="https://www.hra-news.org/" xmlUrl="https://www.hra-news.org/feed/"/>
+      <outline text="هه‌نگاو (Hengaw)" title="هه‌نگاو (Hengaw)" type="rss" htmlUrl="https://hengaw.net/fa" xmlUrl="https://hengaw.net/fa/feed"/>
+      <outline text="پارسینه (Parsine)" title="پارسینه (Parsine)" type="rss" htmlUrl="https://www.parsine.com/" xmlUrl="https://www.parsine.com/fa/rss/allnews"/>
+      <outline text="کردپا (Kurdpa)" title="کردپا (Kurdpa)" type="rss" htmlUrl="https://kurdpa.net/fa" xmlUrl="https://kurdpa.net/fa/feed"/>
+      <outline text="کمپین حقوق بشر ایران (CHRI)" title="کمپین حقوق بشر ایران (CHRI)" type="rss" htmlUrl="https://persian.iranhumanrights.org/" xmlUrl="https://persian.iranhumanrights.org/feed/"/>
+      <outline text="گیل خبر (GilKhabar)" title="گیل خبر (GilKhabar)" type="rss" htmlUrl="https://gilkhabar.ir/" xmlUrl="https://gilkhabar.ir/fa/rss/allnews"/>
+      <outline text="یافته (Yafte News)" title="یافته (Yafte News)" type="rss" htmlUrl="https://yaftenews.ir/" xmlUrl="https://yaftenews.ir/fa/rss/allnews"/>
+    </outline>
+    <outline text="Economy" title="Economy">
+      <outline text="اکوایران (EcoIran)" title="اکوایران (EcoIran)" type="rss" htmlUrl="https://ecoiran.com/" xmlUrl="https://ecoiran.com/fa/rss/allnews"/>
+      <outline text="تجارت‌نیوز (TejaratNews)" title="تجارت‌نیوز (TejaratNews)" type="rss" htmlUrl="https://tejaratnews.com/" xmlUrl="https://tejaratnews.com/fa/rss/allnews"/>
+      <outline text="خبرگزاری ایلنا (ILNA)" title="خبرگزاری ایلنا (ILNA)" type="rss" htmlUrl="https://www.ilna.ir/" xmlUrl="https://www.ilna.ir/fa/rss"/>
+      <outline text="سایت خبری الف (Alef)" title="سایت خبری الف (Alef)" type="rss" htmlUrl="https://www.alef.ir/" xmlUrl="https://www.alef.ir/fa/rss/allnews"/>
+    </outline>
+    <outline text="News" title="News">
+      <outline text="ایران اینترنشنال (Iran International)" title="ایران اینترنشنال (Iran International)" type="rss" htmlUrl="https://www.iranintl.com/" xmlUrl="https://www.iranintl.com/rss/all"/>
+      <outline text="ایندیپندنت فارسی (Independent Persian)" title="ایندیپندنت فارسی (Independent Persian)" type="rss" htmlUrl="https://www.independentpersian.com/" xmlUrl="https://www.independentpersian.com/rss"/>
+      <outline text="بی‌بی‌سی فارسی (BBC Persian)" title="بی‌بی‌سی فارسی (BBC Persian)" type="rss" htmlUrl="https://www.bbc.com/persian" xmlUrl="https://www.bbc.com/persian/index.xml"/>
+      <outline text="خبر فوری (Khabar Foori)" title="خبر فوری (Khabar Foori)" type="rss" htmlUrl="https://www.khabarfoori.com/" xmlUrl="https://www.khabarfoori.com/fa/rss/allnews"/>
+      <outline text="دویچه وله فارسی (DW Persian)" title="دویچه وله فارسی (DW Persian)" type="rss" htmlUrl="https://www.dw.com/fa-ir/" xmlUrl="https://rss.dw.com/xml/rss-fa-all"/>
+      <outline text="رادیو فردا (Radio Farda)" title="رادیو فردا (Radio Farda)" type="rss" htmlUrl="https://www.radiofarda.com/" xmlUrl="https://www.radiofarda.com/rss"/>
+      <outline text="صدای آمریکا (VOA Persian)" title="صدای آمریکا (VOA Persian)" type="rss" htmlUrl="https://ir.voanews.com/" xmlUrl="https://ir.voanews.com/rss"/>
+    </outline>
+    <outline text="Technology" title="Technology">
+      <outline text="خبرگزاری آنا (ANA)" title="خبرگزاری آنا (ANA)" type="rss" htmlUrl="https://ana.ir/" xmlUrl="https://ana.press/fa/rss/allnews"/>
+      <outline text="دیجیاتو (Digiato)" title="دیجیاتو (Digiato)" type="rss" htmlUrl="https://digiato.com/" xmlUrl="https://digiato.com/feed"/>
+      <outline text="زومیت (Zoomit)" title="زومیت (Zoomit)" type="rss" htmlUrl="https://www.zoomit.ir/" xmlUrl="https://www.zoomit.ir/feed/"/>
+      <outline text="پیوست (Peivast)" title="پیوست (Peivast)" type="rss" htmlUrl="https://peivast.com/" xmlUrl="https://peivast.com/feed/"/>
+    </outline>
+    <outline text="Science" title="Science">
+      <outline text="زیست آنلاین (Zist Online)" title="زیست آنلاین (Zist Online)" type="rss" htmlUrl="https://zistonline.com/" xmlUrl="https://zistonline.com/fa/rss/allnews"/>
+      <outline text="سیناپرس (Sinapress)" title="سیناپرس (Sinapress)" type="rss" htmlUrl="https://sinapress.ir/" xmlUrl="https://sinapress.ir/fa/rss/allnews"/>
+    </outline>
+  </body>
 </opml>
