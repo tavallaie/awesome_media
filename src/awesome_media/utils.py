@@ -22,6 +22,10 @@ def load_sources():
     yaml_files = sorted(CONTENT_DIR.glob("*.yaml"))
 
     for file in yaml_files:
+        # FIX: Ignore example.yaml
+        if file.name.lower() == "example.yaml":
+            continue
+
         try:
             with open(file, "r", encoding="utf-8") as f:
                 data = yaml.safe_load(f)
@@ -64,7 +68,7 @@ def load_sources():
                 "website_url": website_url,
                 "website_text": website_text,
                 "rss_url": rss_url,
-                "tags": data.get("tags", []),  # <--- THIS LINE WAS MISSING
+                "tags": data.get("tags", []),  # Ensure tags are loaded
             }
             sources.append(source)
 

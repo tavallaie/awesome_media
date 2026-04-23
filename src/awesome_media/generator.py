@@ -7,7 +7,7 @@ from rich.console import Console
 from rich.table import Table
 from rich import print as rprint
 
-# Use the shared loader
+# Use shared loader
 from awesome_media.utils import load_sources
 
 console = Console()
@@ -17,7 +17,8 @@ console = Console()
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 OUTPUT_DIR = BASE_DIR / "output"
 TEMPLATE_DIR = BASE_DIR / "templates"
-README_PATH = BASE_DIR / "README.md"
+# CHANGED: Output to index.md instead of README.md
+README_PATH = BASE_DIR / "index.md"
 
 
 # --- DATA EXPORT LOGIC ---
@@ -70,7 +71,6 @@ def generate_opml(sources):
             )
 
     # Pretty print and save
-    tree = ET.ElementTree(opml)
     xml_str = ET.tostring(opml, encoding="utf-8", method="xml")
     # Simple pretty print hack
     from xml.dom import minidom
@@ -81,12 +81,13 @@ def generate_opml(sources):
     with open(opml_path, "w", encoding="utf-8") as f:
         f.write(pretty_xml)
 
-    console.print(f"[green]✓[/green] Exported OPML file for RSS readers")
+    console.print("[green]✓[/green] Exported OPML file for RSS readers")
 
 
 # --- README GENERATOR LOGIC ---
 def generate_readme(sources):
-    """Generates the README.md using the loaded sources."""
+    """Generates the index.md using the loaded sources."""
+    # CHANGED: Renamed Title to Awesome Media Catalog (kept your Shield badge)
     header = """# Awesome Media Catalog
 
 A curated catalog of trusted news outlets, podcasts, YouTube channels, newsletters, and independent sources.
@@ -131,7 +132,7 @@ A curated catalog of trusted news outlets, podcasts, YouTube channels, newslette
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(final_content)
 
-    console.print("[bold green]✓[/bold green] README.md generated")
+    console.print("[bold green]✓[/bold green] index.md generated")
 
 
 # --- TABLE SUMMARY LOGIC ---
@@ -194,7 +195,7 @@ def generate_html(sources):
     # Render template
     html_content = template.render(
         sources=sources,
-        sources_json=json.dumps(sources),  # <--- ADD THIS LINE
+        sources_json=json.dumps(sources),
         categories=categories,
         countries=countries,
         languages=languages,
@@ -232,7 +233,7 @@ def main():
     generate_json(sources)
     generate_opml(sources)
 
-    # 3. Generate README
+    # 3. Generate index.md
     generate_readme(sources)
 
     # 4. Generate HTML
