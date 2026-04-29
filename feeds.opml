@@ -16,6 +16,12 @@
     <outline text="News" title="News">
       <outline text="بی‌بی‌سی فارسی (BBC Persian)" title="بی‌بی‌سی فارسی (BBC Persian)" type="rss" htmlUrl="https://www.bbc.com/persian" xmlUrl="https://www.bbc.com/persian/index.xml"/>
     </outline>
+    <outline text="Technology" title="Technology">
+      <outline text="خبرگزاری آنا (ANA)" title="خبرگزاری آنا (ANA)" type="rss" htmlUrl="https://ana.ir/" xmlUrl="https://ana.press/fa/rss/allnews"/>
+      <outline text="دیجیاتو (Digiato)" title="دیجیاتو (Digiato)" type="rss" htmlUrl="https://digiato.com/" xmlUrl="https://digiato.com/feed"/>
+      <outline text="زومیت (Zoomit)" title="زومیت (Zoomit)" type="rss" htmlUrl="https://www.zoomit.ir/" xmlUrl="https://www.zoomit.ir/feed/"/>
+      <outline text="پیوست (Peivast)" title="پیوست (Peivast)" type="rss" htmlUrl="https://peivast.com/" xmlUrl="https://peivast.com/feed/"/>
+    </outline>
     <outline text="Society" title="Society">
       <outline text="خبرگزاری مهر (Mehr News)" title="خبرگزاری مهر (Mehr News)" type="rss" htmlUrl="https://www.mehrnews.com/" xmlUrl="https://www.mehrnews.com/rss"/>
       <outline text="روزنامه شرق (Shargh Daily)" title="روزنامه شرق (Shargh Daily)" type="rss" htmlUrl="https://www.sharghdaily.com/" xmlUrl="https://www.sharghdaily.com/fa/rss/allnews"/>
@@ -24,11 +30,6 @@
       <outline text="فرارو (Fararu)" title="فرارو (Fararu)" type="rss" htmlUrl="https://fararu.com/" xmlUrl="https://fararu.com/fa/rss/allnews"/>
       <outline text="هرانا (HRANA)" title="هرانا (HRANA)" type="rss" htmlUrl="https://www.hra-news.org/" xmlUrl="https://www.hra-news.org/feed/"/>
       <outline text="کمپین حقوق بشر ایران (CHRI)" title="کمپین حقوق بشر ایران (CHRI)" type="rss" htmlUrl="https://persian.iranhumanrights.org/" xmlUrl="https://persian.iranhumanrights.org/feed/"/>
-    </outline>
-    <outline text="Technology" title="Technology">
-      <outline text="دیجیاتو (Digiato)" title="دیجیاتو (Digiato)" type="rss" htmlUrl="https://digiato.com/" xmlUrl="https://digiato.com/feed"/>
-      <outline text="زومیت (Zoomit)" title="زومیت (Zoomit)" type="rss" htmlUrl="https://www.zoomit.ir/" xmlUrl="https://www.zoomit.ir/feed/"/>
-      <outline text="پیوست (Peivast)" title="پیوست (Peivast)" type="rss" htmlUrl="https://peivast.com/" xmlUrl="https://peivast.com/feed/"/>
     </outline>
   </body>
 </opml>

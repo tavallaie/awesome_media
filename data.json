@@ -17,23 +17,6 @@
     ]
   },
   {
-    "title": "احوازنا (Ahwazna)",
-    "category": "Politics",
-    "media_type": "News Website",
-    "country": "Netherlands",
-    "language": "Arabic",
-    "description": "News portal focusing on the affairs of the Ahwazi Arab community and regional human rights.",
-    "website_url": "https://ahwazna.net/",
-    "rss_url": "",
-    "tags": [
-      "human-rights",
-      "local",
-      "netherlands",
-      "politics",
-      "society"
-    ]
-  },
-  {
     "title": "اخبار روز (Akhbar-Rooz)",
     "category": "Politics",
     "media_type": "News Website",
@@ -296,7 +279,7 @@
     "language": "Persian",
     "description": "Azad News Agency, specializing in higher education news, science, and technology.",
     "website_url": "https://ana.ir/",
-    "rss_url": "",
+    "rss_url": "https://ana.press/fa/rss/allnews",
     "tags": [
       "education",
       "iran",
@@ -948,23 +931,6 @@
       "iran",
       "policy",
       "society"
-    ]
-  },
-  {
-    "title": "کمپین فعالین بلوچ (Baloch Campaign)",
-    "category": "Politics",
-    "media_type": "Organization Portal",
-    "country": "USA",
-    "language": "Persian",
-    "description": "Human rights organization monitoring news and developments in the Sistan and Baluchestan region.",
-    "website_url": "https://balochcampaign.us/",
-    "rss_url": "",
-    "tags": [
-      "human-rights",
-      "local",
-      "politics",
-      "society",
-      "usa"
     ]
   },
   {
