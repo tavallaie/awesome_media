@@ -8,9 +8,12 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
     "fastfeedparser>=0.6.0",
     "jinja2>=3.1.6",
+    "lxml>=6.1.0",
     "pyyaml>=6.0.3",
+    "requests>=2.33.1",
     "rich>=15.0.0",
 ]
 

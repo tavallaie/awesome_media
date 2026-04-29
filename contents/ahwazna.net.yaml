@@ -1,17 +1,19 @@
-title: "احوازنا (Ahwazna)"
-category: "Politics"
-country: "Netherlands"
-language: "Arabic"
-website:
-  url: "https://ahwazna.net/"
-  text: "Visit Website"
-media_type: "News Website"
-description: "News portal focusing on the affairs of the Ahwazi Arab community
-  and regional human rights."
-#rss_feed: "https://ahwazna.net/rss"
-tags:
-  - politics
-  - society
-  - human-rights
-  - local
-  - netherlands
+# title: "احوازنا (Ahwazna)"
+# category: "Politics"
+# country: "Netherlands"
+# language: "Arabic"
+# website:
+#   url: "https://ahwazna.net/"
+#   text: "Visit Website"
+# media_type: "News Website"
+# description: "News portal focusing on the affairs of the Ahwazi Arab community
+#   and regional human rights."
+# #rss_feed: "https://ahwazna.net/rss"
+# tags:
+#   - politics
+#   - society
+#   - human-rights
+#   - local
+#   - netherlands
+
+null

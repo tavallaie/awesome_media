@@ -1,0 +1,17 @@
+title: " DW English (DW English)"
+category: "News"
+country: "Germany"
+language: "English"
+website:
+  url: "https://www.dw.com/en"
+  text: "Visit Website"
+media_type: "News Website"
+description: "German public international broadcaster offering news, analysis,
+  and reports in Persian."
+rss_feed: "https://rss.dw.com/atom/rss-en-all"
+tags:
+  - global
+  - politics
+  - diplomacy
+  - breaking
+  - world

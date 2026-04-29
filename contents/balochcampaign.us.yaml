@@ -1,17 +1,19 @@
-title: "کمپین فعالین بلوچ (Baloch Campaign)"
-category: "Politics"
-country: "USA"
-language: "Persian"
-website:
-  url: "https://balochcampaign.us/"
-  text: "Visit Website"
-media_type: "Organization Portal"
-description: "Human rights organization monitoring news and developments in the
-  Sistan and Baluchestan region."
-#rss_feed: "https://balochcampaign.us/feed/"
-tags:
-  - politics
-  - human-rights
-  - society
-  - local
-  - usa
+# title: "کمپین فعالین بلوچ (Baloch Campaign)"
+# category: "Politics"
+# country: "USA"
+# language: "Persian"
+# website:
+#   url: "https://balochcampaign.us/"
+#   text: "Visit Website"
+# media_type: "Organization Portal"
+# description: "Human rights organization monitoring news and developments in the
+#   Sistan and Baluchestan region."
+# #rss_feed: "https://balochcampaign.us/feed/"
+# tags:
+#   - politics
+#   - human-rights
+#   - society
+#   - local
+#   - usa
+
+null
