@@ -1,6 +1,22 @@
 <?xml version="1.0" ?>
 <opml version="1.0">
   <body>
+    <outline text="News" title="News">
+      <outline text=" DW English (DW English) - All News" title=" DW English (DW English) - All News" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/atom/rss-en-all"/>
+      <outline text=" DW English (DW English) - Top Stories" title=" DW English (DW English) - Top Stories" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/atom/rss-en-top"/>
+      <outline text=" DW English (DW English) - Germany" title=" DW English (DW English) - Germany" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/rdf/rss-en-ger"/>
+      <outline text=" DW English (DW English) - World" title=" DW English (DW English) - World" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/atom/rss-en-world"/>
+      <outline text=" DW English (DW English) - Europe" title=" DW English (DW English) - Europe" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/atom/rss-en-eu"/>
+      <outline text=" DW English (DW English) - Africa" title=" DW English (DW English) - Africa" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/rdf/rss-en-africa"/>
+      <outline text=" DW English (DW English) - Business" title=" DW English (DW English) - Business" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/atom/rss-en-bus  "/>
+      <outline text=" DW English (DW English) - Science" title=" DW English (DW English) - Science" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/atom/rss_en_science"/>
+      <outline text=" DW English (DW English) - Environment" title=" DW English (DW English) - Environment" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/atom/rss_en_environment"/>
+      <outline text=" DW English (DW English) - Culture &amp; Lifestyle" title=" DW English (DW English) - Culture &amp; Lifestyle" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/atom/rss-en-cul"/>
+      <outline text=" DW English (DW English) - Sports" title=" DW English (DW English) - Sports" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/atom/rss-en-sports"/>
+      <outline text=" DW English (DW English) - Travel" title=" DW English (DW English) - Travel" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/atom/rss-en-visitgermany"/>
+      <outline text=" DW English (DW English) - Asia" title=" DW English (DW English) - Asia" type="rss" htmlUrl="https://www.dw.com/en" xmlUrl="https://rss.dw.com/rdf/rss-en-asia"/>
+      <outline text="بی‌بی‌سی فارسی (BBC Persian)" title="بی‌بی‌سی فارسی (BBC Persian)" type="rss" htmlUrl="https://www.bbc.com/persian" xmlUrl="https://www.bbc.com/persian/index.xml"/>
+    </outline>
     <outline text="Politics" title="Politics">
       <outline text="آفتاب نیوز (Aftab News)" title="آفتاب نیوز (Aftab News)" type="rss" htmlUrl="https://aftabnews.ir/" xmlUrl="https://aftabnews.ir/fa/rss/allnews"/>
       <outline text="اخبار روز (Akhbar-Rooz)" title="اخبار روز (Akhbar-Rooz)" type="rss" htmlUrl="https://www.akhbar-rooz.com/" xmlUrl="https://www.akhbar-rooz.com/feed/"/>
@@ -12,9 +28,6 @@
       <outline text="عصر ایران (Asr Iran)" title="عصر ایران (Asr Iran)" type="rss" htmlUrl="https://www.asriran.com/" xmlUrl="https://www.asriran.com/fa/rss/allnews"/>
       <outline text="پایگاه خبری انتخاب (Entekhab)" title="پایگاه خبری انتخاب (Entekhab)" type="rss" htmlUrl="https://www.entekhab.ir/" xmlUrl="https://www.entekhab.ir/fa/rss/allnews"/>
       <outline text="کیهان لندن (Kayhan London)" title="کیهان لندن (Kayhan London)" type="rss" htmlUrl="https://kayhan.london/fa/" xmlUrl="https://kayhan.london/fa/feed/"/>
-    </outline>
-    <outline text="News" title="News">
-      <outline text="بی‌بی‌سی فارسی (BBC Persian)" title="بی‌بی‌سی فارسی (BBC Persian)" type="rss" htmlUrl="https://www.bbc.com/persian" xmlUrl="https://www.bbc.com/persian/index.xml"/>
     </outline>
     <outline text="Technology" title="Technology">
       <outline text="خبرگزاری آنا (ANA)" title="خبرگزاری آنا (ANA)" type="rss" htmlUrl="https://ana.ir/" xmlUrl="https://ana.press/fa/rss/allnews"/>
