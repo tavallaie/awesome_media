@@ -1,0 +1,17 @@
+title: "Joho no Todai (English)"
+category: "Technology"
+country: "Japan"
+language: "English"
+website:
+  url: "https://joho-todai.com/en/"
+  text: "Visit Website"
+media_type: "News Website"
+description: "English-language technology news and analysis covering PC hardware, operating systems, Linux, software, AI and cybersecurity, with direct links to original articles."
+rss_feed: "https://joho-todai.com/en/rss/"
+tags:
+  - technology
+  - hardware
+  - software
+  - cybersecurity
+  - ai
+  - analysis
